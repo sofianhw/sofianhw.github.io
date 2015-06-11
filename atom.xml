@@ -1,16 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://sofianhw.github.io/atom.xml" rel="self"/>
-  <link href="http://sofianhw.github.io/"/>
-  <updated>2015-05-27T19:36:13+07:00</updated>
-  <id>http://sofianhw.github.io/</id>
+  <title><![CDATA[My Awesome Blog]]></title>
+  <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
+  <link href="http://blog.sofianhw.com/"/>
+  <updated>2015-06-11T19:42:42+07:00</updated>
+  <id>http://blog.sofianhw.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/11/hello-world/"/>
+    <updated>2015-06-11T19:15:13+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/11/hello-world</id>
+    <content type="html"><![CDATA[<h2>You are reading my blog now!</h2>
+
+<p><strong>My blog is all about :</strong></p>
+
+<ul>
+<li>Tech Updates</li>
+<li>Tips &amp; Trick</li>
+<li>My Lab</li>
+</ul>
+
+
+<p>Thanks for visiting my blog.</p>
+]]></content>
+  </entry>
   
 </feed>

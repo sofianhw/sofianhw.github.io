@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://sofianhw.github.io/sitemap.xml 
+Sitemap: http://blog.sofianhw.com/sitemap.xml 
