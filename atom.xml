@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Awesome Blog]]></title>
+  <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-11T21:54:01+07:00</updated>
+  <updated>2015-06-11T23:12:38+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
