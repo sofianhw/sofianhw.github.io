@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-11T23:12:38+07:00</updated>
+  <updated>2015-06-11T23:23:43+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -19,6 +19,9 @@
     <updated>2015-06-11T19:15:13+07:00</updated>
     <id>http://blog.sofianhw.com/blog/2015/06/11/hello-world</id>
     <content type="html"><![CDATA[<h2>You are reading my blog now!</h2>
+
+<!-- more -->
+
 
 <p><strong>My blog is all about :</strong></p>
 
