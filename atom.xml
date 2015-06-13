@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-14T00:01:45+07:00</updated>
+  <updated>2015-06-14T00:09:09+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -165,7 +165,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 
 <p><img class="center" src="http://blog.sofianhw.com/images/data-device.jpg" title="'data device'" ></p>
 
-<p>Pengembangan selanjut, kita bisa bikin dashboard yang mendapatkan dari dari API <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
+<p>Pengembangan selanjut, kita bisa bikin dashboard yang mendapatkan data dari API <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 ]]></content>
   </entry>
   
