@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-14T00:09:09+07:00</updated>
+  <updated>2015-06-14T09:59:44+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -146,7 +146,7 @@ Kemudian tulis kode berikut dan simpan</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Ganti USERNAME, PASSWORD, dan DEVICE_ID sesuai dengan informasi detail dari device kalian.
+<p>Ganti USERNAME, PASSWORD, dan DEVICE_ID sesuai dengan informasi detail dari device kalian. Source codenya saya upload ke <a href="http://www.github.com">github</a>, yang mau <em>clone</em> ataupun <em>fork</em> bisa ke link <a href="https://github.com/sofianhw/intel-galileo-geeknesia">intel-galileo-geeknesia</a>.
 Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
