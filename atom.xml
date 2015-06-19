@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-19T23:42:28+07:00</updated>
+  <updated>2015-06-19T23:53:36+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -19,6 +19,9 @@
     <updated>2015-06-19T21:59:34+07:00</updated>
     <id>http://blog.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
     <content type="html"><![CDATA[<p>Hari ini kita bakal bahas bagaimana cara membuat blog ini. Blog ini merupakan blog statis, dimana tidak ada CMS (Content Management System) dan blog ini hanya terdiri dari HTML, CSS, JavaScript. Dan tentunya free, dengan manfaatkan <em>fitur</em> <a href="http://github.com">Github</a> pages dan <em>framework</em> blog statis seperti <a href="http://octopress.org">Octopress</a>.</p>
+
+<!-- more -->
+
 
 <p>Sebelum mulai pertama kita harus install <a href="http://octopress.org">Octopress</a> terlebih dahulu di-pc kita. untuk menginstall <a href="http://octopress.org">Octopress</a> kita membutuhkan beberapa tools berikut :</p>
 
