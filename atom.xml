@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-19T23:53:36+07:00</updated>
+  <updated>2015-06-19T23:57:37+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -32,7 +32,7 @@
 </ul>
 
 
-<h4>Setup Octopress</h4>
+<h2>Setup Octopress</h2>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -52,7 +52,7 @@
 
 <p>Setelah itu Anda bisa menjalankan perintah &ldquo;rake preview&rdquo; untuk membuat blog jalan di localhost dengan default port 4000. Anda dapat mengakses blog anda secara offline dengan membuka <a href="http://localhost:4000.">http://localhost:4000.</a></p>
 
-<h4>Deploy ke Github</h4>
+<h2>Deploy ke Github</h2>
 
 <p>Pertama-tama buat <em>repository</em> baru pada <a href="http://github.com">Github</a> dengan format username.github.io ( ganti username dengan username kalian ). Berikut contohnya username saya ada <em>sofianhw</em>, maka _repository_nya adalah sofianhw.github.com.</p>
 
@@ -88,7 +88,7 @@
 
 <p><a href="http://octopress.org">Octopress</a> akan <em>mengenerate</em> blog statis Anda dan mengupload blog statis Anda ke repository <a href="http://github.com">Github</a>. Dan andapun dapat mengakses web / blog statis Anda melalui url <a href="http://username.github.io.">http://username.github.io.</a></p>
 
-<h4>Reference</h4>
+<h2>Reference</h2>
 
 <ul>
 <li><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></li>
