@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-14T09:59:44+07:00</updated>
+  <updated>2015-06-19T23:42:28+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Membuat Web Atau Blog Statis Gratis Pada Github Dengan Octopress]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
+    <updated>2015-06-19T21:59:34+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
+    <content type="html"><![CDATA[<p>Hari ini kita bakal bahas bagaimana cara membuat blog ini. Blog ini merupakan blog statis, dimana tidak ada CMS (Content Management System) dan blog ini hanya terdiri dari HTML, CSS, JavaScript. Dan tentunya free, dengan manfaatkan <em>fitur</em> <a href="http://github.com">Github</a> pages dan <em>framework</em> blog statis seperti <a href="http://octopress.org">Octopress</a>.</p>
+
+<p>Sebelum mulai pertama kita harus install <a href="http://octopress.org">Octopress</a> terlebih dahulu di-pc kita. untuk menginstall <a href="http://octopress.org">Octopress</a> kita membutuhkan beberapa tools berikut :</p>
+
+<ul>
+<li>Install Git.</li>
+<li>Install Ruby >= 1.9.3 menggunakan rbenv atau RVM.</li>
+<li>Install salah satu dari ExecJS yang <em>support</em> Javascript runtimes.</li>
+</ul>
+
+
+<h4>Setup Octopress</h4>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>1. git clone git://github.com/imathis/octopress.git octopress
+</span><span class='line'>2. cd octopress
+</span><span class='line'>3. gem install bundler
+</span><span class='line'>4. rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+</span><span class='line'>5. bundle install
+</span><span class='line'>6. rake install    # install octopress
+</span><span class='line'>7. rake preview    # generate preview </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Setelah itu Anda bisa menjalankan perintah &ldquo;rake preview&rdquo; untuk membuat blog jalan di localhost dengan default port 4000. Anda dapat mengakses blog anda secara offline dengan membuka <a href="http://localhost:4000.">http://localhost:4000.</a></p>
+
+<h4>Deploy ke Github</h4>
+
+<p>Pertama-tama buat <em>repository</em> baru pada <a href="http://github.com">Github</a> dengan format username.github.io ( ganti username dengan username kalian ). Berikut contohnya username saya ada <em>sofianhw</em>, maka _repository_nya adalah sofianhw.github.com.</p>
+
+<p><img class="center" src="http://blog.sofianhw.com/images/buat-repository-github-page.jpg" title="'buat-repository-github-page'" ></p>
+
+<p>Setelah Anda menekan tombol <em>Create Repository</em>, <em>Github Page</em> Anda dapat diakses melalui <a href="http://username.github.io">http://username.github.io</a> , sebagai contoh untuk mengakses <a href="http://github.com">Github</a> saya bisa melalui <a href="http://sofianhw.github.io.">http://sofianhw.github.io.</a></p>
+
+<p>Untuk saat ini page Anda masih blank, karena belom ada file yang kita upload ke <a href="http://github.com">Github</a>. Mari kita pointing <a href="http://octopress.org">Octopress</a> kita ke <em>repository</em> yang baru saja kita buat. ketikan perintah berikut pada terminal Anda.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Anda akan ditanya url dari <em>repository</em> <a href="http://github.com">Github</a></p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Enter the read/write url for your repository
+</span><span class='line'>(For example, 'git@github.com:your_username/your_username.github.io.git)
+</span><span class='line'>           or 'https://github.com/your_username/your_username.github.io')
+</span><span class='line'>Repository url: git@github.com:username/username.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ganti username dengan username Anda. Setelah semuanya terkonfigurasi, Anda cukup mengetik perintah</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p><a href="http://octopress.org">Octopress</a> akan <em>mengenerate</em> blog statis Anda dan mengupload blog statis Anda ke repository <a href="http://github.com">Github</a>. Dan andapun dapat mengakses web / blog statis Anda melalui url <a href="http://username.github.io.">http://username.github.io.</a></p>
+
+<h4>Reference</h4>
+
+<ul>
+<li><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></li>
+<li><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></li>
+<li><a href="http://octopress.org/docs/configuring/">http://octopress.org/docs/configuring/</a></li>
+<li><a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
