@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-06-20T00:01:15+07:00</updated>
+  <updated>2015-06-29T03:01:03+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -12,6 +12,57 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Python]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
+    <updated>2015-06-29T00:04:38+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
+    <content type="html"><![CDATA[<p>Seiring dengan pesatnya perkembangan <em>mini computer</em> <em>raspberry pi</em>, makin banyak <em>programmer</em> yang kembali melirik bahasa pemrogramman yang sudah cukup tua, yaitu <em>python</em>. Python merupakan bahasa pemrogramman yang mengedepankan <em>readability</em> dan <em>productivity</em>. Mungkin hal tersebut yang membuat para pengembang <em>raspberry pi</em> memilih Python sebagai bahasa pemrogramman yang mereka gunakan dalam pembuatan perangkat lunak yang bisa mengontrol <em>board</em> mereka.</p>
+
+<!-- more -->
+
+
+<p>Python mulai diciptakan oleh <a href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> pada tahun 80an. Sejarah lengkapnya dapat dibaca pada <a href="https://en.wikipedia.org/wiki/Python_(programming_language">wikipedia python</a>).</p>
+
+<h2>Perusahaan Apa Saja yang Menggunakan Python</h2>
+
+<ul>
+<li><a href="https://google.co.id">Google</a></li>
+<li><a href="http://www.nasa.gov">NASA</a></li>
+<li><a href="https://www.youtube.com">Youtube</a></li>
+<li><a href="https://www.instagram.com">Instagram</a></li>
+<li><a href="https://www.spotify.com">Spotify</a></li>
+<li><a href="https://wiki.python.org/moin/OrganizationsUsingPython">Etc.</a></li>
+</ul>
+
+
+<h2>Install Python</h2>
+
+<p>Untuk menginstall python dapat mengikuti <a href="https://wiki.python.org/moin/BeginnersGuide/Download">link berikut</a>. Kebetulan OS yang saya pake adalah OSX maka python biasanya sudah termasuk dalam system unix dan linux. Jika sudah menginstall python, pada terminal/command prompt anda cukup mengetik &ldquo;python&rdquo; enter. Maka Anda akan dibawa ke python interpreter.</p>
+
+<p><img class="center" src="http://blog.sofianhw.com/images/python-interpreter.jpg" title="'python interpreter'" ></p>
+
+<h2>Pengenalan</h2>
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/49933401 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe>
+
+
+<p></p>
+
+<h2>Penggunaan</h2>
+
+<p>Setelah mengerti dasar-dasar dari python untuk mengkontrol GPIO pada <em>board</em> Anda dapat menggunakan package berikut :</p>
+
+<ul>
+<li>Raspberry Pi <a href="https://pypi.python.org/pypi/RPi.GPIO">RPi.GPIO</a></li>
+<li>Intel Galileo <a href="https://pypi.python.org/pypi/Wiring-x86/0.1">Wiring-x86</a></li>
+</ul>
+
+
+<p>Silakan mencoba pada board kesayangan Anda.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Membuat Web Atau Blog Statis Gratis Pada Github Dengan Octopress]]></title>
