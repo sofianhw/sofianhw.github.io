@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-07-04T00:26:08+07:00</updated>
+  <updated>2015-07-05T02:04:49+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -12,6 +12,60 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <updated>2015-07-05T01:48:40+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
+    <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
+
+<p>Sebuah konsep dimana benda/objek dengan bantuan perangkat elektronik, perngkat lunak, sensor, dan konektivitas/internet yang membuat benda tersebut dapat bertukaran data / informasi, yang menyebabkan benda tersebut bisa saling berinteraksi dan lebih pintar.</p>
+
+<!--more-->
+
+
+<h2>2. Apa saja yang termasuk dalam Internet of Things?</h2>
+
+<p>Benda apa saja yang memiliki kemampuan berinteraksi via internet. Contoh yang sudah lama ada ditengah kita yaitu mesin ATM. Mesin ATM bisa berinteraksi dengan mesin server melalui internet, dan untuk menarik uang / menabung uang terdapat sensor yang bisa membedakan besaran uang tersebut.</p>
+
+<h2>3. Apa saja manfaat yang bisa kita dapatkan dengan Internet of Things?</h2>
+
+<p>Sisi baiknya adalah kita semakin dimanja dengan teknologi ini, dimana kita bisa berinteraksi dengan benda-benda milik kita dimanapun kita berada kita bisa mengkontrol benda tersebut. Contohnya sekarang banyak yang mengembangkan <em>smartcity</em>, kebayangkan ketika kota yang kita tinggali bisa berinteraksi dengan kita dimanapun kita berada. kita bisa tau jalan yang macet, efisiensi penggunakan energi lampu jalan. serta kita bisa mendapakan prediksi cuaca dan prediksi perjalan kita.
+Salah satu teman saya mengembangkan teknologi <strong>IoT</strong> untuk membantu pembudidaya ikan. mereka membuat sebuah startup bernama efishery. dimana mereka membuat sebuah tempat pakan ikan yang smart. dengan bantuan alat ini para petani budidaya ikan bisa menghemat pemberian pakan  kepada ikan. karena dengan sensor yang ada pada alat ini, memungkinkan untuk mengetahui apakah semua ikan sudah mendapatkan makanan. ketika semuanya efisien akan berakibat pada kondisi kolam yang lebih sehat, karena tidak ada pakan yang terbuang. ketika pakan habis pun. mereka bisa berinteraksi dengan mengirimkan notifikasi pada pemilik kolam.</p>
+
+<h2>4. Di Indonesia sendiri, siapa yang mempopulerkan Internet of Things?</h2>
+
+<p>Di indonesia sendiri kita mempunya beberapa startup yang fokus di bidang <strong>IoT</strong>, kebetulan perusahaan saya (crazyhackerz.com) juga sedang mengembangkan beberapa perangkat berbasiskan <strong>IoT</strong>. Kita membidik sektor hiburan. Diantaranya kita mempunyai <a href="http://crazyhackerz.com/instaprint_by_crackerz">Instaprint</a> dan <a href="http://crazyhackerz.com/instabelly">Instabelly</a>, dimana kedua alat ini memanfaatkan API <a href="https://instagram.com">Instagram</a> untuk berinteraksi.
+Startup lainnya seperti yang sudah saya bilang sebelumnya yaitu <a href="http://www.efishery.com">efishery</a>. Selain pada solusi ada juga startup yang menyediakan layanan platform <strong>IoT</strong> seperti <a href="http://www.geeknesia.com">Geeknesia</a>. Dengan adanya platform dari <a href="http://www.geeknesia.com">Geeknesia</a> ini akan mempermudah para pengembang <strong>IoT</strong> untuk fokus pada aplikasi/device mereka, tidak perlu pusing dengan complexnya membangun server sebagai tempat pertukaran data untuk para perangkat <strong>IoT</strong>.</p>
+
+<h2>5. Anda  memanfaatkan Internet of Things untuk apa saja, menggunakan perangkat/ gadget apa, dan sudah berapa lama menggunakannya?</h2>
+
+<p>Karena saya orangnya agak males, saya mencoba membuat kamar saya lebih <em>smart</em>. Dimana saya bisa mengkontrol lampu dan AC dari internet. jadi ketika saya pulang saya ingin kamar sudah nyala dan dalam keadaan dingin. dan ketika ingin tidur saya bisa mematikan lampu tanpa harus beranjak dari tempat tidur.</p>
+
+<h2>6. Saat ini sudah beberapa kali acara meeting Komunitas <strong>IoT</strong> diadakan. Siapa yang mencetuskan acara ini, tujuannya untuk apa, dan siapa saja yang ikut serta?</h2>
+
+<p>Komunitas <strong>IoT</strong> yang sangat konsisten berada di Bandung. kebetulan jum'at ini sudah memasuki pertemuan yang ke 13.
+<a href="http://meetup.com/Bandung-Internet-of-Things-Meetup/">Bandung <strong>IoT</strong> Meetup</a>.
+yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.geeknesia.com">Geeknesia</a>. Meetup ini dia bentuk setelah mengikuti hackathon <strong>IoT</strong> yang kita adakan maret lalu, yang ikut acaranya ini <em>hobbyist</em>( komunitas arduino, raspberry pi) dan mahasiswa serta para pengembang bisnis yang terkait ( developer bangunan, telco, intel, ibm, dll ).</p>
+
+<h2>7. Bisa dijelaskan sedikit mengenai Komunitas <strong>IoT</strong>? (Berdiri sejak kapan, kegiatan apa saja yang biasa diadakan, topik apa saja yang dibahas anggotanya sudah berapa banyak, dan berasal dari kalangan mana saja)</h2>
+
+<p>Berdiri sejak Maret 2015, kegiatan kita biasa sharing teknologi baru, dan kita juga mengadakan workshop. jumlah peserta yang biasa hadir berkisar 50-60 orang.</p>
+
+<h2>8. Kegiatan terakhir Komunitas <strong>IoT</strong> menyorot topik apa? Kapan kegiatan selanjutnya akan diadakan, dan topik apa yang akan dibahas?</h2>
+
+<p>terakhir kita mengenalkan teknologi dari Intel, mereka punya beberapa board yang berhubungan dengan <strong>IoT</strong> ( intel galileo / intel edison ). dan juga kita mengundang beberapa startup <strong>IoT</strong> yang sudah me launching produk mereka ( efishery dan cubeacon ). next event tanggal 3 juli 2015. Akan membahas tentang <em>hype cycle</em> <strong>IoT</strong> dan raspberry pi.</p>
+
+<h2>9. Bagaimana caranya jika ada yang ingin bergabung dengan Komunitas <strong>IoT</strong>. Apakah ada syarat tertentu? Seperti apa sistem keanggotaannya? Apakah ada kontak yang boleh dipublikasikan (misalnya email) bagi mereka yang ingin bergabung?</h2>
+
+<p>Komunitasnya bersifat terbuka, siapa saja bisa bergabung kita, dapat mengunjungi sitenya <a href="http://meetup.com/Bandung-Internet-of-Things-Meetup/">Bandung <strong>IoT</strong> Meetup</a>.</p>
+
+<h2>10. Terakhir, apa prediksi atau pandangan Anda terhadap <strong>IoT</strong> di Indonesia dalam beberapa tahun ke depan?</h2>
+
+<p>Pangsa pasar untuk <strong>IoT</strong> masih sangat luas di indonesia. Dan atusias para pengembang juga sangat bagus. Kemungkinan demam startup di software / aplikasi juga akan terjadi di <strong>IoT</strong>. Seperti kita liat di crowdfunding platform banyak sekali benda-benda pintar yang sudah sukses disana. di indonesia pun kita punya beberapa crowdfunding yang akan mendukung para pengembang <strong>IoT</strong> ( <a href="https://kitabisa.com">Kitabisa</a>, <a href="http://wujudkan.com">wujudkan</a>, <a href="http://idesabi.com">idesabi</a>). Di dukung pula dengan maker movement di indonesia yang sangat bagus perkembangannya. Dan <a href="http://www.ge.com/id/">GE ( <em>General Electric</em> )</a> agustus nanti akan membuka GE Garage, dimana akan tersedia tools lengkap untuk para maker. Selain itu juga sudah banyak <strong>IoT</strong> hackathon yang mulai diadakan oleh beberapa organiasi di Indonesia, <a href="http://compfest.web.id/competition/internet-of-things-competition">Comfest UI</a> juga tahun ini memasukan <strong>IoT</strong> sebagai salah satu kompetisi mereka.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
