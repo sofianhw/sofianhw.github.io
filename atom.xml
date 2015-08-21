@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://blog.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-08-22T01:07:12+07:00</updated>
+  <updated>2015-08-22T06:02:35+07:00</updated>
   <id>http://blog.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -426,7 +426,8 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
 
 <p>Berikut video yang sudah dipercepat, soalnya kemaren butuh 2jam.</p>
 
-<p><video  preload='metadata' controls ><source src='http://blog.sofianhw.com/images/kerekan-bendera-merah-putih.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+<div class="embed-video-container"><iframe src="//www.youtube.com/embed/5ZYtQOPkfqs" allowfullscreen></iframe></div>
+
 
 <p>Semua source code saya upload ke account github saya <a href="https://github.com/sofianhw/flagpole">sofianhw/flagpole</a>.</p>
 ]]></content>
