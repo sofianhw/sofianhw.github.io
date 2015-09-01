@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Intel Edison | Sofian Hadiwijaya]]></title>
+  <link href="http://blog.sofianhw.com/blog/categories/intel-edison/atom.xml" rel="self"/>
+  <link href="http://blog.sofianhw.com/"/>
+  <updated>2015-09-01T23:53:53+07:00</updated>
+  <id>http://blog.sofianhw.com/</id>
+  <author>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <updated>2015-08-20T09:47:39+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
+    <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
+
+<p><img class="center" src="/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="&lsquo;sofian hadiwijaya bendera&rsquo;" ></p>
+
+<!-- more -->
+
+
+<p>Diselah-selah kesibukan mempersiapkan <em>event</em> <a href="http://therunway.tresemme.co.id/experience">Tresemme</a> pada acara Market Museum. Saya mencoba menyiapkan bahan, pertama yang terngiang dipikiran saya yaitu <em>stepper motor</em> agar pegerakannya lebih persisi. Dan untuk katrolnya sendiri saya akan menggunakan <em>timing belt printer</em>.</p>
+
+<p>Pencarianpun dimulai, dari <em>online</em> maupun <em>offline</em>. <em>Timing belt printer</em> mayoritas pendek, saya membutuhkan minimal satu meter. Akhirnya nemu <em>timing belt 3d printer</em> di <a href="https://www.tokopedia.com">tokopedia</a> panjangnya pas banget satu meter.</p>
+
+<p>Pada tanggal 13 Agustus 2015, <em>timing belt 3d printer</em> yang saya pesan tiba di tempat tinggal saya. Tapi saat itu saya lagi sibuk-sibuknya <em>loading</em> barang untuk event. Akhirnya tanggal 16 Agustus 2015, barulah saya punya kesempatan untuk menyelesaikan projek ini. Berikut barang-barang yang saya gunakan :</p>
+
+<ul>
+<li>Intel Edison</li>
+<li>ULN2803a</li>
+<li>Stepper Motor</li>
+<li>Timing belt 3d printer</li>
+<li>Dudukan untuk kamera</li>
+<li>Gagang Sapu</li>
+<li>Kabel Tie</li>
+</ul>
+
+
+<p><img class="center" src="/images/intel-edison.JPG" width="480" height="480" title="&lsquo;intel edison&rsquo;" >
+<img class="center" src="/images/uln2803a-depan.JPG" width="480" height="480" title="&lsquo;uln2803a depan&rsquo;" >
+<img class="center" src="/images/stepper-motor.JPG" width="480" height="480" title="&lsquo;stepper motor&rsquo;" >
+<img class="center" src="/images/timing-belt.JPG" width="480" height="480" title="&lsquo;timing belt 3d printer&rsquo;" ></p>
+
+<p>Pertama-tama saya akan rakit tiang benderanya dulu. Ikatkan dudukan kamera dan stepper motor pada gagang sapu menggunakan kabel tie.</p>
+
+<p><img class="center" src="/images/terikat-atas.JPG" width="480" height="480" title="&lsquo;terikat atas&rsquo;" >
+<img class="center" src="/images/terikat-bawah.JPG" width="480" height="480" title="&lsquo;terikat bawah&rsquo;" ></p>
+
+<p>pastikan <em>timing belt</em> tidak terlalu kencang maupun kendor.</p>
+
+<p>Setelah itu marilah kita rakit rangkaian ULN dan intel edison sebagai berikut :</p>
+
+<p><img class="center" src="/images/scheme-uln-arduino-stepper.jpg" width="480" height="480" title="&lsquo;scheme uln arduino stepper&rsquo;" >
+<img class="center" src="/images/uln-depan.JPG" width="480" height="480" title="&lsquo;uln2803a depan&rsquo;" >
+<img class="center" src="/images/uln-samping.JPG" width="480" height="480" title="&lsquo;uln2803a samping&rsquo;" ></p>
+
+<p>Mari kita sambungkan keseluruhan <em>system</em></p>
+
+<p><img class="center" src="/images/kerekan-bendera-diy.JPG" width="480" height="480" title="&lsquo;kerekan bendera diy&rsquo;" ></p>
+
+<p>Selanjutnya mari kita putar-putar kerekannya. Berikut kode yang saya tulis menggunakan bahasa <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">python</a>.</p>
+
+<pre><code class="Python countFlagSteps.py https://github.com/sofianhw/flagpole/blob/master/countFlagSteps.py">import time
+from wiringx86 import GPIOEdison as GPIO
+gpio = GPIO(debug=False)
+pin1 = 3
+pin2 = 4
+pin3 = 5
+pin4 = 6
+index = 0
+
+print 'Setting up pin %d' % pin1
+gpio.pinMode(pin1, gpio.OUTPUT)
+print 'Setting up pin %d' % pin2
+gpio.pinMode(pin2, gpio.OUTPUT)
+print 'Setting up pin %d' % pin3
+gpio.pinMode(pin3, gpio.OUTPUT)
+print 'Setting up pin %d' % pin4
+gpio.pinMode(pin4, gpio.OUTPUT)
+
+print 'Go up now...'
+try:
+  while(True):
+    gpio.digitalWrite(pin4, gpio.LOW)     
+    gpio.digitalWrite(pin2, gpio.HIGH)    
+    time.sleep(0.01)                      
+
+    gpio.digitalWrite(pin1, gpio.LOW)     
+    gpio.digitalWrite(pin3, gpio.HIGH)    
+    time.sleep(0.01)                      
+
+    gpio.digitalWrite(pin2, gpio.LOW)     
+    gpio.digitalWrite(pin4, gpio.HIGH)    
+    time.sleep(0.01)                      
+
+    gpio.digitalWrite(pin3, gpio.LOW)     
+    gpio.digitalWrite(pin1, gpio.HIGH)    
+    time.sleep(0.01)                      
+
+    index=index+1
+
+# When you get tired of seeing the led blinking kill the loop with Ctrl-C.
+except KeyboardInterrupt:                                                 
+  print '\nCleaning up...'                                              
+  print 'total step %d' % index                                           
+  gpio.digitalWrite(pin1, gpio.LOW)                                     
+  gpio.digitalWrite(pin2, gpio.LOW)                                     
+  gpio.digitalWrite(pin3, gpio.LOW)                                     
+  gpio.digitalWrite(pin4, gpio.LOW)                                     
+
+  # Do a general cleanup. Calling this function is not mandatory.       
+  gpio.cleanup()     
+</code></pre>
+
+<p>eksekusi kode tersebut, ketika bendera sudah mencapai puncaknya tekan &ldquo;Ctrl + C&rdquo; untuk <em>interrupt</em> program, lalu program akan memberikan output berapa putaran yang diperlukan untuk mencapai puncak.</p>
+
+<pre><code class="sh Terminal">$ python countFlagSteps.py
+</code></pre>
+
+<p>Ketika semua step dianggap sukses sekarang marilah kita hubungkan ke twitter.
+sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">aplikasi pada twitter</a> kita.</p>
+
+<p><img class="center" src="/images/twitter-hackathon-merdeka.png" width="480" height="480" title="&lsquo;twitter hackathon merdeka&rsquo;" ></p>
+
+<p>Kita akan memanfaatkan <a href="https://dev.twitter.com/streaming/overview">API Streaming</a> untuk mendapatkan jumlah tweet secara <em>real-time</em>.</p>
+
+<pre><code class="Python countTweets.py https://github.com/sofianhw/flagpole/blob/master/countTweets.py">import argparse
+import time
+from wiringx86 import GPIOEdison as GPIO
+from TwitterAPI import TwitterAPI, TwitterOAuth, TwitterRestPager
+gpio = GPIO(debug=False)
+pin1 = 3
+pin2 = 4
+pin3 = 5
+pin4 = 6
+COUNT = 100 # search download batch size
+
+def setup():
+        print 'Setting up pin %d' % pin1
+        gpio.pinMode(pin1, gpio.OUTPUT)
+        print 'Setting up pin %d' % pin2
+        gpio.pinMode(pin2, gpio.OUTPUT)
+        print 'Setting up pin %d' % pin3
+        gpio.pinMode(pin3, gpio.OUTPUT)
+        print 'Setting up pin %d' % pin4
+        gpio.pinMode(pin4, gpio.OUTPUT)                          
+
+def puter():                                                     
+        print "muter"                                            
+        for i in range(100):                                     
+                print i                                          
+                gpio.digitalWrite(pin4, gpio.LOW)                
+                gpio.digitalWrite(pin2, gpio.HIGH)               
+                time.sleep(0.01)                  
+
+                gpio.digitalWrite(pin1, gpio.LOW) 
+                gpio.digitalWrite(pin3, gpio.HIGH)
+                time.sleep(0.01)                  
+
+                gpio.digitalWrite(pin2, gpio.LOW) 
+                gpio.digitalWrite(pin4, gpio.HIGH)
+                time.sleep(0.01)                  
+
+                gpio.digitalWrite(pin3, gpio.LOW) 
+                gpio.digitalWrite(pin1, gpio.HIGH)
+                time.sleep(0.01)                  
+
+def count_old_tweets(api, word_list): 
+        words = ' OR '.join(word_list)                           
+        count = 0                                                
+        while True:                                              
+                pager = TwitterRestPager(api, 'search/tweets', {'q':words, 'coun
+                for item in pager.get_iterator():                               
+                        if 'text' in item:                                      
+                                count += 1                                      
+                                print(count)                                    
+                        elif 'message' in item:                                 
+                                if item['code'] == 131:                         
+                                        continue # ignore internal server error 
+                                elif item['code'] == 88:                        
+                                        print('Suspend search until %s' % search
+                                raise Exception('Message from twitter: %s' % ite
+
+
+def count_new_tweets(api, word_list):                                           
+        words = ','.join(word_list)                                             
+        count = 0                                                               
+        total_skip = 0                                                          
+        while True:                                                             
+                skip = 0                                                        
+                try:          
+                        r = api.request('statuses/filter', {'track':words})     
+                        while True:                                             
+                                for item in r.get_iterator():                   
+                                        if 'text' in item:                      
+                                                count += 1                      
+                                                puter()                         
+                                                print(count + skip + total_skip)
+                                        elif 'limit' in item:                   
+                                                skip = item['limit'].get('track'
+                                                #print('\n\n\n*** Skipping %d tw
+                                        elif 'disconnect' in item:              
+                                                raise Exception('Disconnect: %s'
+                except Exception as e:                                          
+                        print('*** MUST RECONNECT %s' % e)                      
+                total_skip += skip                                              
+
+
+if __name__ == '__main__':                                                      
+        parser = argparse.ArgumentParser(description='Count occurance of word(s)
+        parser.add_argument('-past', action='store_true', help='search historic 
+        parser.add_argument('-oauth', metavar='FILENAME', type=str, help='read O
+        parser.add_argument('words', metavar='W', type=str, nargs='+', help='wor
+        args = parser.parse_args() 
+
+        oauth = TwitterOAuth.read_file(args.oauth)                              
+        api = TwitterAPI(oauth.consumer_key, oauth.consumer_secret, oauth.access
+
+        try:                                                                    
+                setup()                                                         
+                if args.past:                                                   
+                        count_old_tweets(api, args.words)                       
+                else:                                                           
+                        count_new_tweets(api, args.words)                       
+        except KeyboardInterrupt:                                               
+                print('\nTerminated by user\n')                                 
+                gpio.digitalWrite(pin1, gpio.LOW)                               
+                gpio.digitalWrite(pin2, gpio.LOW)                               
+                gpio.digitalWrite(pin3, gpio.LOW)                               
+                gpio.digitalWrite(pin4, gpio.LOW)                               
+
+                # Do a general cleanup. Calling this function is not mandatory. 
+                gpio.cleanup()                                                  
+        except Exception as e:                                                  
+                print('*** STOPPED %s\n' % e)  
+</code></pre>
+
+<pre><code class="sh token_key.txt https://github.com/sofianhw/flagpole/blob/master/token_key.txt">consumer_key=
+consumer_secret=
+access_token_key=
+access_token_secret=
+</code></pre>
+
+<p>mari kita test apakah kode yang kita buat bekerja.</p>
+
+<pre><code class="sh Terminal">$ python countTweets.py -oauth token_key.txt [kata]
+</code></pre>
+
+<p>Berikut video yang sudah dipercepat, soalnya kemaren butuh 2jam.</p>
+
+<p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/5ZYtQOPkfqs" allowfullscreen></iframe></div></p>
+
+<p>Semua source code saya upload ke account github saya <a href="https://github.com/sofianhw/flagpole">sofianhw/flagpole</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <updated>2015-07-03T16:58:55+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
+    <content type="html"><![CDATA[<p>Hello Good People,</p>
+
+<p>Pada postingan sebelumnya kita sudah membahas cara menghubungkan <a href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/">Intel Galileo ke Geeknesia dengan menggunakan nodejs</a>. Kemudian minggu lalu saya juga menulis tentang <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">dasar-dasar Python</a>. Nah gimana menurut kalian bahasa Python sendiri?.</p>
+
+<!-- more -->
+
+
+<p>Sekarang kita akan mempelajari bagaimana menghubungkan Intel Edison <em>board</em> penerus dari Intel Galileo, bentuknya lebih kecil dan sudah dilengkapi dengan wifi dan bluetooth.</p>
+
+<p>Sebelum kita menghubungkan Intel Edison ke geeknesia, kita akan mempelajari terlebih dahulu bagaimana cara mengkontrol GPIO dari Arduino <em>breakout</em> yang dibuat khusus untuk Intel Edison. Untuk mengkontrol GPIO pada Intel <em>Board</em> telah tersedia <em>module opensource</em> yaitu <a href="https://pypi.python.org/pypi/Wiring-x86/1.0.0">Wiring-x86</a>.</p>
+
+<pre><code class="sh Terminal">$ pip install wiring-x86
+</code></pre>
+
+<p>Mari kita tes untuk membuat blinky LED.</p>
+
+<pre><code class="Python blink.py"># Import the time module enable sleeps between turning the led on and off.
+import time
+
+# Import the GPIOEdison class from the wiringx86 module.
+# In case you want to use a different board, simply the import right class
+# below. The API is unified for all supported boards.
+from wiringx86 import GPIOEdison as GPIO
+
+# Create a new instance of the GPIOEdison class.
+# Setting debug=True gives information about the interaction with sysfs.
+gpio = GPIO(debug=False)
+pin = 7
+state = gpio.HIGH
+
+# Set pin 7 to be used as an output GPIO pin.
+print 'Setting up pin %d' % pin
+gpio.pinMode(pin, gpio.OUTPUT)
+
+
+print 'Blinking pin %d now...' % pin
+try:
+    while(True):
+        # Write a state to the pin. ON or OFF.
+        gpio.digitalWrite(pin, state)
+
+        # Toggle the state.
+        state = gpio.LOW if state == gpio.HIGH else gpio.HIGH
+
+        # Sleep for a while.
+        time.sleep(0.5)
+
+# When you get tired of seeing the led blinking kill the loop with Ctrl-C.
+except KeyboardInterrupt:
+    # Leave the led turned off.
+    print '\nCleaning up...'
+    gpio.digitalWrite(pin, gpio.LOW)
+
+    # Do a general cleanup. Calling this function is not mandatory.
+    gpio.cleanup()
+</code></pre>
+
+<p>simpan dengan nama file blink.py , mari kita execute filenya.</p>
+
+<pre><code class="sh Terminal">$ python blink.py
+</code></pre>
+
+<p><video width='320' height='640' preload='metadata' controls poster='/images/blinking-led-edison.jpg'><source src='/images/blinking-led-edison.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+
+<p>Hore!!! LED-nya kedap-kedip.</p>
+
+<p>Setelah kita bisa mengkontrol GPIO dari Intel Edison sekarang saatnya kita menginstall <em>package</em> untuk MQTT Client. Salah satu <em>module</em> yang hits sekarang yaitu <a href="https://pypi.python.org/pypi/paho-mqtt">Paho-MQTT</a>.</p>
+
+<pre><code class="sh Terminal">$ pip install paho-mqtt
+</code></pre>
+
+<p>Selanjutnya, berikut kode dasar menggunakan paho-mqtt untuk berkomunikasi dengan <a href="http://geeknesia.com">Geeknesia</a> :
+<figure class='code'><figcaption><span>mqttClient.py</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+</pre></td><td class='code'><pre><code class='Python'><span class='line'><span class="kn">from</span> <span class="nn">wiringx86</span> <span class="kn">import</span> <span class="n">GPIOEdison</span> <span class="k">as</span> <span class="n">GPIO</span>
+</span><span class='line'><span class="kn">import</span> <span class="nn">paho.mqtt.client</span> <span class="kn">as</span> <span class="nn">paho</span><span class="o">,</span> <span class="nn">os</span><span class="o">,</span> <span class="nn">urlparse</span><span class="o">,</span> <span class="nn">time</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">gpio</span> <span class="o">=</span> <span class="n">GPIO</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</span><span class='line'><span class="n">analogpin</span> <span class="o">=</span> <span class="mi">17</span>
+</span><span class='line'><span class="n">gpio</span><span class="o">.</span><span class="n">pinMode</span><span class="p">(</span><span class="n">analogpin</span><span class="p">,</span> <span class="n">gpio</span><span class="o">.</span><span class="n">ANALOG_INPUT</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Define</span> <span class="n">event</span> <span class="n">callbacks</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">def</span> <span class="nf">on_connect</span><span class="p">(</span><span class="n">mosq</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">rc</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">print</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">rc</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">rc</span><span class="p">))</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">def</span> <span class="nf">on_message</span><span class="p">(</span><span class="n">mosq</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">msg</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">print</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">topic</span> <span class="o">+</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">qos</span><span class="p">)</span> <span class="o">+</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">payload</span><span class="p">))</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">def</span> <span class="nf">on_publish</span><span class="p">(</span><span class="n">mosq</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">mid</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">print</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">mid</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">mid</span><span class="p">))</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">def</span> <span class="nf">on_subscribe</span><span class="p">(</span><span class="n">mosq</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">mid</span><span class="p">,</span> <span class="n">granted_qos</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">print</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">Subscribed</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span> <span class="o">+</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">granted_qos</span><span class="p">))</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="k">def</span> <span class="nf">on_log</span><span class="p">(</span><span class="n">mosq</span><span class="p">,</span> <span class="n">obj</span><span class="p">,</span> <span class="n">level</span><span class="p">,</span> <span class="n">string</span><span class="p">):</span>
+</span><span class='line'>    <span class="k">print</span><span class="p">(</span><span class="n">string</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">mqttc</span> <span class="o">=</span> <span class="n">paho</span><span class="o">.</span><span class="n">Client</span><span class="p">()</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Assign</span> <span class="n">event</span> <span class="n">callbacks</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">mqttc</span><span class="o">.</span><span class="n">on_message</span> <span class="o">=</span> <span class="n">on_message</span>
+</span><span class='line'><span class="n">mqttc</span><span class="o">.</span><span class="n">on_connect</span> <span class="o">=</span> <span class="n">on_connect</span>
+</span><span class='line'><span class="n">mqttc</span><span class="o">.</span><span class="n">on_publish</span> <span class="o">=</span> <span class="n">on_publish</span>
+</span><span class='line'><span class="n">mqttc</span><span class="o">.</span><span class="n">on_subscribe</span> <span class="o">=</span> <span class="n">on_subscribe</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Uncomment</span> <span class="n">to</span> <span class="n">enable</span> <span class="n">debug</span> <span class="n">messages</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">mqttc</span><span class="o">.</span><span class="n">on_log</span> <span class="o">=</span> <span class="n">on_log</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Parse</span> <span class="n">CLOUDMQTT_URL</span> <span class="p">(</span><span class="ow">or</span> <span class="n">fallback</span> <span class="n">to</span> <span class="n">localhost</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">url_str</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">CLOUDMQTT_URL</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;,</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="n">mqtt</span><span class="p">:</span><span class="o">//</span><span class="n">USERNAME</span><span class="p">:</span><span class="n">PASSWORD</span><span class="nd">@geeknesia.com</span><span class="p">:</span><span class="mi">1883</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;)</span>
+</span><span class='line'><span class="n">url</span> <span class="o">=</span> <span class="n">urlparse</span><span class="o">.</span><span class="n">urlparse</span><span class="p">(</span><span class="n">url_str</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Connect</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">mqttc</span><span class="o">.</span><span class="n">username_pw_set</span><span class="p">(</span><span class="n">url</span><span class="o">.</span><span class="n">username</span><span class="p">,</span> <span class="n">url</span><span class="o">.</span><span class="n">password</span><span class="p">)</span>
+</span><span class='line'><span class="n">mqttc</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">url</span><span class="o">.</span><span class="n">hostname</span><span class="p">,</span> <span class="n">url</span><span class="o">.</span><span class="n">port</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Start</span> <span class="n">subscribe</span><span class="p">,</span> <span class="k">with</span> <span class="n">QoS</span> <span class="n">level</span> <span class="mi">0</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">mqttc</span><span class="o">.</span><span class="n">subscribe</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">hello</span><span class="o">/</span><span class="n">world</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;,</span> <span class="mi">0</span><span class="p">)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Publish</span> <span class="n">a</span> <span class="n">message</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">mqttc</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">iot</span><span class="o">/</span><span class="n">live</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;,</span> <span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">DEVICE_ID</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;)</span><span class="o">&lt;/</span><span class="n">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">h1</span><span class="o">&gt;</span><span class="n">Continue</span> <span class="n">the</span> <span class="n">network</span> <span class="n">loop</span><span class="p">,</span> <span class="nb">exit</span> <span class="n">when</span> <span class="n">an</span> <span class="n">error</span> <span class="n">occurs</span><span class="o">&lt;/</span><span class="n">h1</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">rc</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class='line'><span class="k">while</span> <span class="n">rc</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">rc</span> <span class="o">=</span> <span class="n">mqttc</span><span class="o">.</span><span class="n">loop</span><span class="p">()</span>
+</span><span class='line'>    <span class="n">value</span> <span class="o">=</span> <span class="n">gpio</span><span class="o">.</span><span class="n">analogRead</span><span class="p">(</span><span class="n">analogpin</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">mqttc</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">iot</span><span class="o">/</span><span class="n">data</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;,</span> <span class="o">&amp;</span><span class="n">lsquo</span><span class="p">;{</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">code</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;:</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">USERNAME</span><span class="p">:</span><span class="n">PASSWORD</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;,</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">attributes</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;:{</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">LDR</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;:</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;</span><span class="o">+</span> <span class="o">&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="n">value</span><span class="o">&lt;/</span><span class="n">code</span><span class="o">&gt;</span> <span class="o">+&amp;</span><span class="n">lsquo</span><span class="p">;</span><span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;}}</span><span class="o">&amp;</span><span class="n">rsquo</span><span class="p">;)</span>
+</span><span class='line'>    <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">60</span><span class="p">)</span>
+</span><span class='line'><span class="k">print</span><span class="p">(</span><span class="o">&amp;</span><span class="n">ldquo</span><span class="p">;</span><span class="n">rc</span><span class="p">:</span> <span class="o">&amp;</span><span class="n">rdquo</span><span class="p">;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">rc</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Analog Input pada <em>module</em> Wiring-x86 mulai dari pin 17-19. Jadi A0 = 17 , dan seterusnya. Untuk saat ini saya menggunakan A03 sebagai Analog Input. Dengan demikian saya menggunakan pin 17.</p>
+
+<p>Jangan lupa ganti DEVICE_ID, USERNAME, dan PASSWORD , sesuai dengan informasi detail dari device yang Anda daftarkan pada <a href="http://geeknesia.com">Geeknesia</a>.
+Mari kita execute script Python kita
+<code>sh Terminal
+$ python mqttClient.py
+</code></p>
+
+<p><img class="center" src="/images/blinking-led-edison.jpg" width="320" height="320" title="&lsquo;blinking led edison&rsquo;" >
+<img class="center" src="/images/data-device.jpg" title="&lsquo;data-device&rsquo;" ></p>
+
+<p>Intel Edison akan selalu mengirimkan data dari sensor LDR ke <a href="http://geeknesia.com">Geeknesia</a> dengan interval 60 detik.
+Semua source saya upload ke Github dengan nama repo <a href="https://github.com/sofianhw/python-mqtt-geeknesia">python-mqtt-geeknesia</a>.</p>
+
+<p>Silakan berkreasi dengan dasar yang sudah ada.</p>
+]]></content>
+  </entry>
+  
+</feed>

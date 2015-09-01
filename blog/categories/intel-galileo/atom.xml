@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Intel Galileo | Sofian Hadiwijaya]]></title>
+  <link href="http://blog.sofianhw.com/blog/categories/intel-galileo/atom.xml" rel="self"/>
+  <link href="http://blog.sofianhw.com/"/>
+  <updated>2015-09-01T23:53:53+07:00</updated>
+  <id>http://blog.sofianhw.com/</id>
+  <author>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <updated>2015-06-13T21:48:40+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
+    <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
+Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em>Intel Edison</em>. Pada tulisan saat ini saya tidak akan banyak menulis tentang <em>board</em> tersebut, saya akan bercerita pengalaman sayang menggunakan <em>platform IoT</em> asli <em>made in</em> Bandung yaitu <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
+
+<!-- more -->
+
+
+<h4>1. Registrasi</h4>
+
+<p>Pertama kita harus registrasi dulu pada websitenya <a href="http://www.geeknesia.com">Geeknesia</a>, Tunggu beberapa saat nanti Anda akan mendapatkan email dari <a href="http://www.geeknesia.com">Geeknesia</a> berupa username dan password untuk masuk ke <em>platform IoT</em> tersebut.</p>
+
+<h4>2. Add New Device</h4>
+
+<p>Setelah mendapatkan akses, kita bisa menambahkan device yang kita punya dengan cara, mengklik button pada pojok kanan atas &ldquo;Add New Device&rdquo;, disini kita akan diminta untuk memberikan informasi <em>device</em> kita.</p>
+
+<p><img class="center" src="/images/add-new-device.jpg" title="&lsquo;add new device&rsquo;" ></p>
+
+<p>jika semua data sudah diisi dengan benar, kita tekan tombol <em>create</em>. Setelah itu kita akan dibawa ke halaman yang memberikan informasi detail tentang device kita dan beberapa contoh API dari <a href="http://www.geeknesia.com">Geeknesia</a> yang dapat kita gunakan nantinya.</p>
+
+<p><img class="center" src="/images/detail-device.jpg" title="&lsquo;detail device&rsquo;" ></p>
+
+<h4>3. Menghubungkan Intel Galileo ke Geeknesia</h4>
+
+<p>Ada beberapa cara untuk menghubungkan Intel Galileo dan <a href="http://www.geeknesia.com">Geeknesia</a>. Namun pada artikel ini saya hanya akan membahas dengan menggunakan bahasa pemrogramman <em><a href="https://nodejs.org">nodejs</a></em> dan <em>protocol <a href="http://mqtt.org">mqtt</a></em>.
+Saya menggunakan Grove Starter Kit, untuk memudahkan dalam menggunakan LED dan sensor LDR.</p>
+
+<p><img class="center" src="/images/intel-galileo-geeknesia.jpg" title="&lsquo;intel galileo geeknesia&rsquo;" ></p>
+
+<p>Persiapkan Intel Galileo kalian, pertama-tama remote login Intel Galileo, bisa melalui ssh ataupun telnet ataupun screen. Untuk saat ini saya menggunakan ssh.
+Kemudian tulis kode berikut dan simpan
+<code>JavaScript package.json
+{
+  "name": "galileo-geeknesia",
+  "version": "1.0.0",
+  "description": "menghubungkan galileo ke geeknesia",
+  "main": "galileo-geeknesia.js",
+  "dependencies": {
+    "galileo-io": "^0.8.14",
+    "mqtt": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"
+  },
+  "author": "sofian hadiwijaya",
+  "license": "ISC"
+}
+</code></p>
+
+<pre><code class="JavaScript galileo-geeknesia.js">var mqtt = require('mqtt'), url = require('url'), Galileo = require("galileo-io");
+var mqtt_url = url.parse('mqtt://USERNAME:PASSWORD@geeknesia.com:1883');
+var auth = (mqtt_url.auth || ':').split(':');
+var board = new Galileo();
+var LDR = 0;
+
+var client = mqtt.createClient(mqtt_url.port, mqtt_url.hostname, {
+  username: auth[0],
+  password: auth[1] 
+});
+
+client.on('connect', function() { // When connected
+  client.publish('iot/live', 'DEVICE_ID', function() {
+    console.log("Menghubungkan ke Geeknesia");
+  });
+  board.pinMode(8,board.MODES.OUTPUT)
+  board.analogRead("A3",function(data){
+    LDR = data;
+  });
+  setInterval(function(){
+    if(LDR &gt;=300)
+      board.digitalWrite(8,1);
+    else
+      board.digitalWrite(8,0);
+    client.publish('iot/data', '{"code":"USERNAME:PASSWORD","attributes":{"LDR":"'+LDR+'"}}', function() {
+      console.log("Send data LDR = "+LDR);
+    });
+  }, 1000);
+});
+</code></pre>
+
+<p>Ganti USERNAME, PASSWORD, dan DEVICE_ID sesuai dengan informasi detail dari device kalian. Source codenya saya upload ke <a href="http://www.github.com">github</a>, yang mau <em>clone</em> ataupun <em>fork</em> bisa ke link <a href="https://github.com/sofianhw/intel-galileo-geeknesia">intel-galileo-geeknesia</a>.
+Untuk menjalan kode tersebut sebelumnya kita ketik perintah
+<code>Bash
+$ npm install
+</code>
+perintah tersebut akan menginstal <em>dependencies</em> dari kode kita. Setelah itu untuk menjalankan <em>script</em> tersebut kita ketik perintah
+<code>Bash
+$ node galileo-geeknesia.js
+</code>
+untuk melihat apakah kode tersebut berjalan dengan sempurna, kita kembali ke <em>dashboard</em> <a href="http://www.geeknesia.com">Geeknesia</a>. Kita pastikan device kita terhubung dan mengirimkan data, bisa dilihat pada gambar berikut</p>
+
+<p><img class="center" src="/images/data-device.jpg" title="&lsquo;data device&rsquo;" ></p>
+
+<p>Pengembangan selanjut, kita bisa bikin dashboard yang mendapatkan data dari API <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Blinky LED Using Intel Galileo Board]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
+    <updated>2015-06-11T23:55:39+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
+    <content type="html"><![CDATA[<p>After the <a href="http://www.bigdataindonesia.com/hackathon.php">IoT Hackathon</a> event held at <a href="www.crazyhackerz.com">Crazy Hackerz Makerspace</a> (7-8 March 2015), Intel decided to lend us the Intel Galileo for us to experiment and play around with it. In genereal Intel Galileo is embedded board which is a combination of the Arduino Uno with an Intel X1000 SoC Quark.  In short, Intel Galileo is a mini computer with the concept of DIY (Do it Yourself) which is similar to the Raspberry Pi.</p>
+
+<!-- more -->
+
+
+<p>Interestingly Intel Galileo is compatible with Arduino and Arduini, an electric kit or open source electronic circuit board which includes the main components of a chip microcontroller with the type of AVR. So through Intel Galileo we can control the Arduino directly from Linux.</p>
+
+<p>I would like to take this opportunity to invite you to understand the theory of Internet Of Things (IOT) based on Intel’s simple Galileo (for you who want to study in more depth about the IOT, you can study for free in <a href="https://software.intel.com/en-us/courseware/IOT">intel iot course</a>.</p>
+
+<p>Since I am a Web Developer, I like it when Intel discusses about <a href="http://nodejs.org">Nodejs</a> (section 7), especially on the way to control the input/output Arduino. The tools that we will be making this time is <em>Blinky Led</em> with the use of Nodejs program. But how do we do this? Come join me while I show you the process.</p>
+
+<h2>Hardware Required</h2>
+
+<p>First of all to start this project we will need:</p>
+
+<ul>
+<li>Intel Galileo</li>
+<li>LED</li>
+<li>Laptop/Computer (OS: Linux/Mac)</li>
+</ul>
+
+
+<h2>Connecting the Hardware</h2>
+
+<p>Make sure the device is Intel Galileo and connected to a working laptop/computer and connected to a network. To know the IP address of the Intel Galileo, we can use the command
+<code>
+$ arp-a
+</code></p>
+
+<p><img class="center" src="/images/intel-galileo-arp-a.png" title="&lsquo;intel-galileo arp-a&rsquo;" ></p>
+
+<h2>Find the Intel Galileo IP address</h2>
+
+<p>Since I use a LAN, I am able to see the mac address attached to the LAN port on the Intel Galileo. After retrieving the IP of the Intel Galileo, we remote login into Intel Galileo with the command
+<code>
+$ ssh root@[ip_intel_galileo]
+</code></p>
+
+<p><img class="center" src="/images/intel-galileo-ssh.png" title="&lsquo;intel-galileo ssh&rsquo;" ></p>
+
+<h2>Create a Folder</h2>
+
+<p>Upon entry into the Intel Galileo Linux, we will create a folder for our project. For example the folder name is First IOT then we make the command
+<code>
+$ mkdir first-iot &amp;&amp; cd first-iot
+</code></p>
+
+<p><img class="center" src="/images/intel-galileo-mkdir.png" title="&lsquo;intel-galileo mkdir&rsquo;" ></p>
+
+<h2>Install the package</h2>
+
+<p>Furthermore, we can use a package that has been provided for communicating with the Arduino contained in Intel Galileo. One package that is available is <a href="https://github.com/rwaldron/galileo-io">galileo-io</a> we can install the package with the command
+<code>
+$ npm install galileo-io
+</code></p>
+
+<p><img class="center" src="/images/intel-galileo-npm-install.png" title="&lsquo;intel-galileo npm install&rsquo;" ></p>
+
+<h2>Enter the code</h2>
+
+<p>We will create a <strong>hello world</strong> on the board, which is made of blinking LED, with the following code:
+<figure class='code'><figcaption><span>server.js</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='JavaScript'><span class='line'><span class="kd">var</span> <span class="nx">Galileo</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">galileo</span><span class="o">-</span><span class="nx">io</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">board</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Galileo</span><span class="p">();</span>
+</span><span class='line'><span class="nx">board</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">ready</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="kr">byte</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'>  <span class="k">this</span><span class="p">.</span><span class="nx">pinMode</span><span class="p">(</span><span class="mi">13</span><span class="p">,</span><span class="k">this</span><span class="p">.</span><span class="nx">MODES</span><span class="p">.</span><span class="nx">OUTPUT</span><span class="p">)</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="nx">setInterval</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>    <span class="nx">board</span><span class="p">.</span><span class="nx">digitalWrite</span><span class="p">(</span><span class="mi">13</span><span class="p">,(</span><span class="kr">byte</span> <span class="o">^=</span><span class="mi">1</span><span class="p">))</span>
+</span><span class='line'>  <span class="p">},</span> <span class="mi">500</span><span class="p">);</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Write down the code in the file server.js example, to execute the code we use <strong>node server.js</strong> on the terminal. If you do not have the nodejs on the operating system, you can see the tutorial on the following <a href="https://nodejs.org/download">link</a></p>
+
+<p><img class="center" src="/images/intel-galileo-node-start.png" title="&lsquo;intel-galileo node start&rsquo;" ></p>
+
+<p>Wooollllaaaaa!!! LED on pin 13 Arduino blinking</p>
+
+<p><img class="center" src="/images/intel-galileo-blinky.png" title="&lsquo;intel-galileo blinky&rsquo;" ></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Blog | Sofian Hadiwijaya]]></title>
+  <link href="http://blog.sofianhw.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://blog.sofianhw.com/"/>
+  <updated>2015-09-01T23:53:53+07:00</updated>
+  <id>http://blog.sofianhw.com/</id>
+  <author>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Membuat Web Atau Blog Statis Gratis Pada Github Dengan Octopress]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
+    <updated>2015-06-19T21:59:34+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
+    <content type="html"><![CDATA[<p>Hari ini kita bakal bahas bagaimana cara membuat blog ini. Blog ini merupakan blog statis, dimana tidak ada CMS (Content Management System) dan blog ini hanya terdiri dari HTML, CSS, JavaScript. Dan tentunya free, dengan manfaatkan <em>fitur</em> <a href="http://github.com">Github</a> pages dan <em>framework</em> blog statis seperti <a href="http://octopress.org">Octopress</a>.</p>
+
+<!-- more -->
+
+
+<p>Sebelum mulai pertama kita harus install <a href="http://octopress.org">Octopress</a> terlebih dahulu di-pc kita. untuk menginstall <a href="http://octopress.org">Octopress</a> kita membutuhkan beberapa tools berikut :</p>
+
+<ul>
+<li>Install Git.</li>
+<li>Install Ruby >= 1.9.3 menggunakan rbenv atau RVM.</li>
+<li>Install salah satu dari ExecJS yang <em>support</em> Javascript runtimes.</li>
+</ul>
+
+
+<h2>Setup Octopress</h2>
+
+<pre><code>1. git clone git://github.com/imathis/octopress.git octopress
+2. cd octopress
+3. gem install bundler
+4. rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
+5. bundle install
+6. rake install    # install octopress
+7. rake preview    # generate preview 
+</code></pre>
+
+<p>Setelah itu Anda bisa menjalankan perintah &ldquo;rake preview&rdquo; untuk membuat blog jalan di localhost dengan default port 4000. Anda dapat mengakses blog anda secara offline dengan membuka <a href="http://localhost:4000.">http://localhost:4000.</a></p>
+
+<h2>Deploy ke Github</h2>
+
+<p>Pertama-tama buat <em>repository</em> baru pada <a href="http://github.com">Github</a> dengan format username.github.io ( ganti username dengan username kalian ). Berikut contohnya username saya ada <em>sofianhw</em>, maka _repository_nya adalah sofianhw.github.com.</p>
+
+<p><img class="center" src="/images/buat-repository-github-page.jpg" title="&lsquo;buat-repository-github-page&rsquo;" ></p>
+
+<p>Setelah Anda menekan tombol <em>Create Repository</em>, <em>Github Page</em> Anda dapat diakses melalui <a href="http://username.github.io">http://username.github.io</a> , sebagai contoh untuk mengakses <a href="http://github.com">Github</a> saya bisa melalui <a href="http://sofianhw.github.io.">http://sofianhw.github.io.</a></p>
+
+<p>Untuk saat ini page Anda masih blank, karena belom ada file yang kita upload ke <a href="http://github.com">Github</a>. Mari kita pointing <a href="http://octopress.org">Octopress</a> kita ke <em>repository</em> yang baru saja kita buat. ketikan perintah berikut pada terminal Anda.</p>
+
+<pre><code>rake setup_github_pages
+</code></pre>
+
+<p>Anda akan ditanya url dari <em>repository</em> <a href="http://github.com">Github</a>
+<code>
+Enter the read/write url for your repository
+(For example, 'git@github.com:your_username/your_username.github.io.git)
+           or 'https://github.com/your_username/your_username.github.io')
+Repository url: git@github.com:username/username.github.io.git
+</code>
+Ganti username dengan username Anda. Setelah semuanya terkonfigurasi, Anda cukup mengetik perintah
+<code>
+rake generate
+rake deploy
+</code>
+<a href="http://octopress.org">Octopress</a> akan <em>mengenerate</em> blog statis Anda dan mengupload blog statis Anda ke repository <a href="http://github.com">Github</a>. Dan andapun dapat mengakses web / blog statis Anda melalui url <a href="http://username.github.io.">http://username.github.io.</a></p>
+
+<h2>Reference</h2>
+
+<ul>
+<li><a href="http://octopress.org/docs/setup/">http://octopress.org/docs/setup/</a></li>
+<li><a href="http://octopress.org/docs/deploying/github/">http://octopress.org/docs/deploying/github/</a></li>
+<li><a href="http://octopress.org/docs/configuring/">http://octopress.org/docs/configuring/</a></li>
+<li><a href="http://octopress.org/docs/blogging/">http://octopress.org/docs/blogging/</a></li>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

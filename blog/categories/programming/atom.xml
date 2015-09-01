@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Programming | Sofian Hadiwijaya]]></title>
+  <link href="http://blog.sofianhw.com/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://blog.sofianhw.com/"/>
+  <updated>2015-09-01T23:53:53+07:00</updated>
+  <id>http://blog.sofianhw.com/</id>
+  <author>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Golang]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
+    <updated>2015-07-12T14:09:32+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
+    <content type="html"><![CDATA[<p>Bulan lalu kantor saya kedatangan CTO dari <a href="http://www.go-jek.com">Go-Jek</a> (<a href="https://plus.google.com/+SheranGunasekera">Sheran Gunasekera</a>), beliau sharing tentang beberapa masalah yang dialami oleh <a href="http://www.go-jek.com">Go-Jek</a>, salah satunya yaitu masalah <em>concurrency</em>, untuk menyelesaikan masalah ini mereka berniat migrasi ke <a href="http://golang.org">Go</a>. Karena penasaran saya juga mencoba untuk belajar <a href="http://golang.org">Go</a>.
+<img class="center" src="/images/CTO-GoJek.jpg" title="&lsquo;Bersama CTO Go-Jek&rsquo;" ></p>
+
+<!-- more -->
+
+
+<p>Inti dari saya menulis blog ini lebih ke memberi pengenalan tentang <a href="http://golang.org">Go</a>, bukan untuk mengajari bagaimana full tentang <a href="http://golang.org">Go</a>. Karena saya bukan orang yang menggunakan <a href="http://golang.org">Go</a> dalam keseharian. Tapi saya harap kedepannya dapat merubah beberapa <em>webservice</em> kami ke <a href="http://golang.org">Go</a>. Kenapa saya tertarik untuk migrasi ke <a href="http://golang.org">Go</a>, mari kita lihat sejarah dari <a href="http://golang.org">Go</a> sendiri.</p>
+
+<p><a href="http://golang.org">Go</a> dibuat oleh <a href="https://en.wikipedia.org/wiki/Robert_Griesemer">Robert Griesemer</a>, <a href="https://en.wikipedia.org/wiki/Rob_Pike">Rob Pike</a> dan <a href="https://en.wikipedia.org/wiki/Ken_Thompson_">Ken Thompson</a> pada tahun 2007, dan mulai dipublish tahun 2009. Idenya sendiri lahir dari kebutuhan untuk membuat suatu bahasa pemrogramman yang <em>type safety</em> dan <em>portability</em>. Dan beberapa tujuan lainnya :</p>
+
+<ul>
+<li>Gampang dipelajari</li>
+<li>Type Safety dan Memory Safety</li>
+<li>Gampang untuk Concurrency</li>
+<li>Adanya Garbage Collection</li>
+<li>Kompilasi yang cepat</li>
+</ul>
+
+
+<p>Beberapa perusahaan besar yang telah menggunakan <a href="http://golang.org">Go</a> antara lain :</p>
+
+<ul>
+<li><a href="http://www.canonical.com/">Canonical</a></li>
+<li><a href="http://www.heroku.com/">Heroku</a></li>
+<li><a href="http://www.cloudfoundry.com/">CloudFoundry</a></li>
+<li><a href="http://www.cloudflare.com/">CloudFlare</a></li>
+<li><a href="https://www.google.co.id">Google</a></li>
+<li><a href="http://go-lang.cat-v.org/organizations-using-go">Etc.</a></li>
+</ul>
+
+
+<p>Untuk IDE sendiri beberapa IDE yang lazim digunakan oleh para developer telah mendukung <a href="http://golang.org">Go</a>, seperti :</p>
+
+<ul>
+<li><a href="http://www.sublimetext.com/">Sublime Text</a></li>
+<li><a href="http://www.jetbrains.com/idea/">IntelliJ</a></li>
+<li><a href="https://github.com/visualfc/liteide">LiteIDE</a></li>
+<li><a href="http://netbeans.org/">NetBeans</a></li>
+<li><a href="http://www.eclipse.org/">Eclipse</a></li>
+<li><a href="http://macromates.com/">TextMate</a></li>
+<li><a href="http://komodoide.com/resources/languages/komodo--golang/">Komodo</a></li>
+<li><a href="https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins">Etc.</a></li>
+</ul>
+
+
+<p>Keseharian saya menggunakan beberapa <em>dynamic language</em> seperti <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a> dan Nodejs, ketika saya mencoba syntax <a href="http://golang.org">Go</a> cukup mudah untuk saya beradaptasi, namun walaupun demikian <a href="http://golang.org">Go</a> memiliki performa yang setara dengan C. Mari kita perhatikan beberapa hal yang membedakan <a href="http://golang.org">Go</a> dengan bahasa pemrogramman lainnya.</p>
+
+<h2>Syntax</h2>
+
+<p><a href="http://golang.org">Go</a> tidak mengharuskan untuk menambahkan titik koma(;) pada setiap akhir dari baris kode. Untuk deklarasi sendiri ada beberapa cara diantaranya :</p>
+
+<ul>
+<li>nama variable diikuti oleh tipe datanya ex : var kata string</li>
+<li>variable juga bisa langsung diinisialisasi ex : angka := 10</li>
+</ul>
+
+
+<p>Masih ingat ketika kita mengakses sebuah object biasanya ada property Public/Private, dimana yang memiliki proverty Private hanya bisa diakses oleh si object itu sendiri. Nah di <a href="http://golang.org">Go</a> sendiri yang membedakan Public dan Private adalah awal kata dari nama variable atau function tersebut. Ketika awal katanya merupakan huruf besar maka secara otomatis akan menjadi Public variable atau function. Sebaliknya untuk private cukup menggunakan awal katanya ke huruf kecil.
+<code>Go
+func Foo() // Public function
+func bar() // Private function
+</code></p>
+
+<p><a href="http://golang.org">Go</a> merupakan bahasa pemrogramman <em>procedural</em>, dimana <a href="http://golang.org">Go</a> tidak mempunyai feature class, overloading, dan inheritance.</p>
+
+<h2>Warning / Error</h2>
+
+<p><a href="http://golang.org">Go</a> juga mempunya karakteristik yang unik tentang Error. Jika ada variable atau package yang tidak terpakai maka akan ada peringatan Error.</p>
+
+<h2>Control Structure</h2>
+
+<p>Hal yang menarik dari Go hanya memiliki 3 <em>Control Structure</em> :</p>
+
+<ul>
+<li>If Else</li>
+<li>Switch Case</li>
+<li>For</li>
+</ul>
+
+
+<p>Untuk penulisan sendiri ada beberapa berbedaan seperti pada <strong>If Else</strong> kita bisa menginisialisasi variable pada kondisional statemen</p>
+
+<pre><code class="Go ifelse.go">if value, ok := readData(); kondisional {
+    ...
+}
+</code></pre>
+
+<p>Begitu pula untuk <strong>Switch Case</strong>, pada <a href="http://golang.org">Go</a> lebih fleksibel. Karena kita harus menentukan variable apa yang akan menjadi acuan <strong>Case</strong>.</p>
+
+<pre><code class="Go switch.go">switch {
+    case i &lt; 0:
+        f1()
+    case i == 0:
+        f2()
+    case i &gt; 0:
+        f3()
+}
+</code></pre>
+
+<p>Selain itu <strong>Switch Case</strong> pada <a href="http://golang.org">Go</a> juga tidak mempunyai <strong>break</strong>. jika kita mau mengindikasikan dari satu <strong>Case</strong> satu mau lanjut ke <strong>Case</strong> selanjutnya kita perlu menambahkan Kode <strong>fallthrough</strong>
+<figure class='code'><figcaption><span>switch2.go</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='Go'><span class='line'><span class="k">switch</span> <span class="nx">i</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">case</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">// tidak akan ada yang akan dieksekusi ketika i == 0</span>
+</span><span class='line'>    <span class="k">case</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>            <span class="nx">f</span><span class="p">()</span> <span class="c1">// function f() tidak akan dipanggil ketika i == 0</span>
+</span><span class='line'><span class="p">}&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="c1">// untuk membuat function f dipanggil kita perlu menambahkan failthrough pada case 1</span>
+</span><span class='line'><span class="k">switch</span> <span class="nx">i</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">case</span> <span class="mi">0</span><span class="p">:</span> <span class="nx">failthrough</span>
+</span><span class='line'>    <span class="k">case</span> <span class="mi">1</span><span class="p">:</span>
+</span><span class='line'>            <span class="nx">f</span><span class="p">()</span> <span class="c1">// dengan demikian function f() akan dipanggil ketika i == 0</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<p>Dan yang paling menarik untuk metode pengulangan <a href="http://golang.org">Go</a> hanya memiliki satu control structure yaitu <strong>For</strong>, untuk membuat infinte loop kita bisa menuliskan sebagai berikut
+<figure class='code'><figcaption><span>for.go</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='Go'><span class='line'><span class="k">for</span><span class="p">{&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<h2>Tipe Data</h2>
+
+<p>Berikut tipe data yang ada pada <a href="http://golang.org">Go</a> :</p>
+
+<ul>
+<li><strong>Boolean</strong> : bool</li>
+<li><strong>Numeric</strong> : uint8 to uint64, int8 to int64, uint, int, float32, float64,complex64, complex128, byte, rune</li>
+<li><strong>String</strong> : string</li>
+<li><strong>Array</strong> : [5]byte</li>
+<li><strong>Slice</strong> : make([]int, 50, 100)</li>
+<li><strong>Map</strong> : map[string]int</li>
+<li><strong>Struct</strong> : struct</li>
+<li><strong>Function</strong> : func</li>
+<li><strong>Interface</strong> : interface</li>
+<li><strong>Channel</strong> : chan</li>
+</ul>
+
+
+<p>Kurang lebih sama seperti bahasa lainnya, namun ada beberapa perbedaan yang akan kita bahas.</p>
+
+<h3>Array</h3>
+
+<p>Array merupakan tipe data yang dapat menampung data dengan tipe data yang sama. Pada <a href="http://golang.org">Go</a> Array memiliki kapasitas yang tetap dimana kita tidak bisa menambahkan data melebihi kapasitas dari array tersebut. Mirip dengan tuple pada <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>.
+<figure class='code'><figcaption><span>array.go</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='Go'><span class='line'><span class="kn">package</span> <span class="nx">main</span><span class="p">&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kn">import</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">fmt</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">arr1</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="kt">int</span>
+</span><span class='line'>    <span class="k">for</span> <span class="nx">i</span><span class="o">:=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nb">len</span><span class="p">(</span><span class="nx">arr1</span><span class="p">);</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">arr1</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="nx">i</span> <span class="o">*</span> <span class="mi">2</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">for</span> <span class="nx">i</span><span class="o">:=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&amp;</span><span class="nx">lt</span><span class="p">;</span> <span class="nb">len</span><span class="p">(</span><span class="nx">arr1</span><span class="p">);</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">Array</span> <span class="nx">at</span> <span class="nx">index</span> <span class="o">%</span><span class="nx">d</span> <span class="nx">is</span> <span class="o">%</span><span class="nx">d</span><span class="err">\</span><span class="nx">n</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">arr1</span><span class="p">[</span><span class="nx">i</span><span class="p">])</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<pre><code class="sh Output">Array at index 0 is 0 
+Array at index 1 is 2 
+Array at index 2 is 4 
+Array at index 3 is 6 
+Array at index 4 is 8
+</code></pre>
+
+<h3>Slice</h3>
+
+<p>Bisa dibilang Slice merupakan Array yang fleksibel, maksudnya adalah kapasitas dari Slice bisa berubah, baik bertambah ataupun berkurang. Jika Anda programmer <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>, maka Slice ini mirip dengan list pada <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>.</p>
+
+<pre><code class="Go slice.go">package main
+
+import "fmt"
+
+func main() {
+    var slice1 []int = make([]int, 10)
+}
+
+// load the array/slice:
+for i := 0; i &lt; len(slice1); i++ {
+    slice1[i] = 5 * i
+}
+
+// print the slice:
+for i := 0; i &lt; len(slice1); i++ {
+    fmt.Printf("Slice at %d is %d\n", i, slice1[i])
+}
+
+fmt.Printf("\nThe length of slice1 is %d\n", len(slice1))
+fmt.Printf("The capacity of slice1 is %d\n", cap(slice1))
+</code></pre>
+
+<pre><code class="sh Output">Slice at 0 is 0 
+Slice at 1 is 5
+Slice at 2 is 10
+Slice at 3 is 15
+Slice at 4 is 20
+Slice at 5 is 25
+Slice at 6 is 30
+Slice at 7 is 35
+Slice at 8 is 40
+Slice at 9 is 45
+The length of slice1 is 10
+</code></pre>
+
+<h3>Map</h3>
+
+<p>Map juga merupakan Array, jika pada Array dan Slice untuk mengakses menggunakan index, pada Map Anda dapat menggunakan <em>key</em>, atau sering disebut juga <em>hash</em>. Pada <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a> Map dikenal sebagai Dictionary.</p>
+
+<pre><code class="Go map.go">package main
+
+import "fmt"
+
+func main() {
+    var mapLit map[string]int
+    var mapAssigned map[string]int
+
+    mapLit = map[string]int{"one": 1, "two": 2}
+    mapCreated := make(map[string]float32)
+    mapAssigned = mapLit
+
+    mapCreated["key1"] = 4.5
+    mapCreated["key2"] = 3.14159
+    mapAssigned["two"] = 3
+
+    fmt.Printf("Map literal at one is: %d\n", mapLit["one"])
+    fmt.Printf("Map created at key2 is: %f\n", mapCreated["key2"])
+    fmt.Printf("Map assigned at two is: %d\n", mapLit["two"])
+    fmt.Printf("Map literal at ten is: %d\n" mapLit["ten"])
+}
+</code></pre>
+
+<pre><code class="sh Output">Map literal at one is: 1
+Map created at key2 is: 3.141590
+Map assigned at two is: 3 
+Map literal at ten is: 0
+</code></pre>
+
+<h3>Struct</h3>
+
+<p>Jika Array merupakan kumpulan data dengan tipe data yang sama, Struct adalah kumpulan data dengan tipe data yang berbeda sesuai dengan apa yang kita <em>define</em> diawal. Hal ini sangat mirip dengan konsepnya Struct pada Bahasa C.
+<code>Go konsep
+type identifier struct {
+    field1 type1
+    field2 type2
+    ...
+}
+</code>
+<figure class='code'><figcaption><span>struct.go</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+</pre></td><td class='code'><pre><code class='Go'><span class='line'><span class="kn">package</span> <span class="nx">main</span><span class="p">&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kn">import</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">fmt</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">type</span> <span class="nx">struct1</span> <span class="kd">struct</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">i1</span>   <span class="kt">int</span>
+</span><span class='line'>    <span class="nx">f1</span>   <span class="kt">float32</span>
+</span><span class='line'>    <span class="nx">str</span>  <span class="kt">string</span>
+</span><span class='line'><span class="p">}&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">func</span> <span class="nx">main</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">ms</span> <span class="o">:=</span> <span class="nb">new</span><span class="p">(</span><span class="nx">struct1</span><span class="p">)</span>
+</span><span class='line'>    <span class="nx">ms</span><span class="p">.</span><span class="nx">i1</span> <span class="p">=</span> <span class="mi">10</span>
+</span><span class='line'>    <span class="nx">ms</span><span class="p">.</span><span class="nx">f1</span> <span class="p">=</span> <span class="mf">15.5</span>
+</span><span class='line'>    <span class="nx">ms</span><span class="p">.</span><span class="nx">str</span> <span class="p">=</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">Chris</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">pre</span><span class="p">&gt;&lt;</span><span class="nx">code</span><span class="p">&gt;</span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&quot;The int is: %d\n&quot;</span><span class="p">,</span> <span class="nx">ms</span><span class="p">.</span><span class="nx">i1</span><span class="p">)</span>
+</span><span class='line'><span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&quot;The float is: %f\n&quot;</span><span class="p">,</span> <span class="nx">ms</span><span class="p">.</span><span class="nx">f1</span><span class="p">)</span>
+</span><span class='line'><span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&quot;The string is: %s\n&quot;</span><span class="p">,</span> <span class="nx">ms</span><span class="p">.</span><span class="nx">str</span><span class="p">)</span>
+</span><span class='line'><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">ms</span><span class="p">)</span>
+</span><span class='line'><span class="p">&lt;</span><span class="o">/</span><span class="nx">code</span><span class="p">&gt;&lt;</span><span class="o">/</span><span class="nx">pre</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;}</span>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">code</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;</span><span class="o">/</span><span class="nx">code</span><span class="p">&gt;</span> <span class="nx">sh</span> <span class="nx">Output</span>
+</span><span class='line'><span class="nx">The</span> <span class="kt">int</span> <span class="nx">is</span><span class="p">:</span> <span class="mi">10</span>
+</span><span class='line'><span class="nx">The</span> <span class="kt">float</span> <span class="nx">is</span><span class="p">:</span> <span class="mf">15.500000</span>
+</span><span class='line'><span class="nx">The</span> <span class="kt">string</span> <span class="nx">is</span><span class="p">:</span> <span class="nx">Chris</span>
+</span><span class='line'><span class="o">&amp;</span><span class="nx">amp</span><span class="p">;{</span><span class="mi">10</span> <span class="mf">15.5</span> <span class="nx">Chris</span><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<h3>Function</h3>
+
+<p>Function merupakan kumpulan dari tipe data, control dan statement. Yang mana bisa mengembalikan value, tidak seperti bahasa pemrogramman pada umumnya, pada <a href="http://golang.org">Go</a> <em>return value</em> nya bisa lebih dari satu.</p>
+
+<pre><code class="Go function.go">package main
+
+import "fmt"
+
+func main(){
+    nilai := []int{7,8,9,9}
+    nama := "sofian hadiwijaya"
+
+    nilairatarata, namanya := HitungAvg(nilai, nama)
+    fmt.Printf("Nama Siswa: %s\n", namanya) 
+    fmt.Printf("Nilai Rata-Rata: %f\n", nilairatarata)  
+
+}
+
+func HitungAvg(nilai []int, nama string) (float32, string) {
+    var total int
+    for i:=0; i &lt; len(nilai); i++ {
+        total += nilai[i]
+    }
+    return float32(total)/float32(len(nilai)), nama
+}
+</code></pre>
+
+<pre><code class="sh Output">Nama Siswa: sofian hadiwijaya
+Nilai Rata-Rata: 8.250000
+</code></pre>
+
+<h3>Interface</h3>
+
+<p><a href="http://golang.org">Go</a> bukan bahasa berorientasi objek &lsquo;klasik&rsquo;. Dimana <a href="http://golang.org">Go</a> tidak mempunyai <em>class</em> dan metode <em>inheritance</em>. Interface sendiri lebih ke seperti <em>Abstract Class</em> dimana hanya berupa kumpulan metode/function.
+<code>Go konsep
+type Namer interface {
+    Method1(param_list) return_type
+    Method2(param_list) return_type
+    ...
+}
+</code>
+<figure class='code'><figcaption><span>interface.go</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+</pre></td><td class='code'><pre><code class='Go'><span class='line'><span class="kn">package</span> <span class="nx">main</span><span class="p">&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kn">import</span> <span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">fmt</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">type</span> <span class="nx">Shaper</span> <span class="kd">interface</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">Area</span><span class="p">()</span> <span class="kt">float32</span>
+</span><span class='line'><span class="p">}&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">type</span> <span class="nx">Square</span> <span class="kd">struct</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">side</span> <span class="kt">float32</span>
+</span><span class='line'><span class="p">}&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">func</span> <span class="p">(</span><span class="nx">sq</span> <span class="o">*</span><span class="nx">Square</span><span class="p">)</span> <span class="nx">Area</span><span class="p">()</span> <span class="kt">float32</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">sq</span><span class="p">.</span><span class="nx">side</span> <span class="o">*</span> <span class="nx">sq</span><span class="p">.</span><span class="nx">side</span>
+</span><span class='line'><span class="p">}&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;</span><span class="kd">func</span> <span class="nx">main</span><span class="p">(){</span>
+</span><span class='line'>    <span class="nx">sq1</span> <span class="o">:=</span> <span class="nb">new</span><span class="p">(</span><span class="nx">Square</span><span class="p">)</span>
+</span><span class='line'>    <span class="nx">sq1</span><span class="p">.</span><span class="nx">side</span> <span class="p">=</span> <span class="mi">5</span><span class="p">&lt;</span><span class="o">/</span><span class="nx">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">pre</span><span class="p">&gt;&lt;</span><span class="nx">code</span><span class="p">&gt;</span><span class="nx">areaIntf</span> <span class="o">:=</span> <span class="nx">sq1</span>
+</span><span class='line'><span class="nx">fmt</span><span class="p">.</span><span class="nx">Printf</span><span class="p">(</span><span class="s">&quot;Luas Area = %f\n&quot;</span><span class="p">,</span> <span class="nx">areaIntf</span><span class="p">.</span><span class="nx">Area</span><span class="p">())</span>
+</span><span class='line'><span class="p">&lt;</span><span class="o">/</span><span class="nx">code</span><span class="p">&gt;&lt;</span><span class="o">/</span><span class="nx">pre</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">p</span><span class="p">&gt;}</span>
+</span><span class='line'><span class="p">&lt;</span><span class="nx">code</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;</span><span class="o">/</span><span class="nx">code</span><span class="p">&gt;</span> <span class="nx">sh</span> <span class="nx">Output</span>
+</span><span class='line'><span class="nx">Luas</span> <span class="nx">Area</span> <span class="p">=</span> <span class="mf">25.000000</span>
+</span></code></pre></td></tr></table></div></figure></p>
+
+<h3>Goroutines And Channel</h3>
+
+<p>Goroutines merupakan <em>thread</em> pada bahasa pemrogramman lainnya.</p>
+
+<blockquote><p>Do not use global variables or shared memory, they make your code unsafe for running concurrently</p></blockquote>
+
+<p>Channel sendiri merupakan alat komunikasi antara goroutines</p>
+
+<pre><code class="Go goroutine.go">package main
+
+import "fmt"
+
+func sum(a []int, c chan int){
+    sum := 0
+    for _, v := range a{
+        sum += v
+    }
+
+    c &lt;- sum // send sum to c
+}
+
+func main(){
+    a := []int{7,2,8,-9,4,0}
+    c := make(chan int)
+    go sum(a[:len(a)/2],c)
+    go sum(a[len(a)/2:],c)
+    x,y := &lt;-c , &lt;-c // receive from c
+    fmt.Println(x,y,x+y)
+}
+</code></pre>
+
+<pre><code class="sh Output">17 -5 12
+</code></pre>
+
+<p>Selamat mencoba, jika Anda ingin belajar lebih lanjut dapat langsung mengunjungi situs dokumentasi dari <a href="http://golang.org/doc/">Go</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Python]]></title>
+    <link href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
+    <updated>2015-06-29T00:04:38+07:00</updated>
+    <id>http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
+    <content type="html"><![CDATA[<p>Seiring dengan pesatnya perkembangan <em>mini computer</em> <em>raspberry pi</em>, makin banyak <em>programmer</em> yang kembali melirik bahasa pemrogramman yang sudah cukup tua, yaitu <em>python</em>. Python merupakan bahasa pemrogramman yang mengedepankan <em>readability</em> dan <em>productivity</em>. Mungkin hal tersebut yang membuat para pengembang <em>raspberry pi</em> memilih Python sebagai bahasa pemrogramman yang mereka gunakan dalam pembuatan perangkat lunak yang bisa mengontrol <em>board</em> mereka.</p>
+
+<!-- more -->
+
+
+<p>Python mulai diciptakan oleh <a href="https://en.wikipedia.org/wiki/Guido_van_Rossum">Guido van Rossum</a> pada tahun 80an. Sejarah lengkapnya dapat dibaca pada <a href="https://en.wikipedia.org/wiki/Python_(programming_language">wikipedia python</a>).</p>
+
+<h2>Perusahaan Apa Saja yang Menggunakan Python</h2>
+
+<ul>
+<li><a href="https://google.co.id">Google</a></li>
+<li><a href="http://www.nasa.gov">NASA</a></li>
+<li><a href="https://www.youtube.com">Youtube</a></li>
+<li><a href="https://www.instagram.com">Instagram</a></li>
+<li><a href="https://www.spotify.com">Spotify</a></li>
+<li><a href="https://wiki.python.org/moin/OrganizationsUsingPython">Etc.</a></li>
+</ul>
+
+
+<h2>Install Python</h2>
+
+<p>Untuk menginstall python dapat mengikuti <a href="https://wiki.python.org/moin/BeginnersGuide/Download">link berikut</a>. Kebetulan OS yang saya pake adalah OSX maka python biasanya sudah termasuk dalam system unix dan linux. Jika sudah menginstall python, pada terminal/command prompt anda cukup mengetik &ldquo;python&rdquo; enter. Maka Anda akan dibawa ke python interpreter.</p>
+
+<p><img class="center" src="/images/python-interpreter.jpg" title="&lsquo;python interpreter&rsquo;" ></p>
+
+<h2>Pengenalan</h2>
+
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/49933401 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
+
+<h2>Penggunaan</h2>
+
+<p>Setelah mengerti dasar-dasar dari python untuk mengkontrol GPIO pada <em>board</em> Anda dapat menggunakan package berikut :</p>
+
+<ul>
+<li>Raspberry Pi <a href="https://pypi.python.org/pypi/RPi.GPIO">RPi.GPIO</a></li>
+<li>Intel Galileo <a href="https://pypi.python.org/pypi/Wiring-x86/0.1">Wiring-x86</a></li>
+</ul>
+
+
+<p>Silakan mencoba pada board kesayangan Anda.</p>
+]]></content>
+  </entry>
+  
+</feed>
