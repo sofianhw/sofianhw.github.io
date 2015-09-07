@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Golang | Sofian Hadiwijaya]]></title>
-  <link href="http://blog.sofianhw.com/blog/categories/golang/atom.xml" rel="self"/>
-  <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-09-06T23:43:09+07:00</updated>
-  <id>http://blog.sofianhw.com/</id>
+  <link href="http://www.sofianhw.com/blog/categories/golang/atom.xml" rel="self"/>
+  <link href="http://www.sofianhw.com/"/>
+  <updated>2015-09-07T10:04:23+07:00</updated>
+  <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Golang]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
+    <link href="http://www.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
     <updated>2015-07-12T14:09:32+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
+    <id>http://www.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
     <content type="html"><![CDATA[<p>Bulan lalu kantor saya kedatangan CTO dari <a href="http://www.go-jek.com">Go-Jek</a> (<a href="https://plus.google.com/+SheranGunasekera">Sheran Gunasekera</a>), beliau sharing tentang beberapa masalah yang dialami oleh <a href="http://www.go-jek.com">Go-Jek</a>, salah satunya yaitu masalah <em>concurrency</em>, untuk menyelesaikan masalah ini mereka berniat migrasi ke <a href="http://golang.org">Go</a>. Karena penasaran saya juga mencoba untuk belajar <a href="http://golang.org">Go</a>.
 <img class="center" src="/images/CTO-GoJek.jpg" title="&lsquo;Bersama CTO Go-Jek&rsquo;" ></p>
 

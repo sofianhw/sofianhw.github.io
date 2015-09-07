@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Iot | Sofian Hadiwijaya]]></title>
-  <link href="http://blog.sofianhw.com/blog/categories/iot/atom.xml" rel="self"/>
-  <link href="http://blog.sofianhw.com/"/>
-  <updated>2015-09-06T23:43:09+07:00</updated>
-  <id>http://blog.sofianhw.com/</id>
+  <link href="http://www.sofianhw.com/blog/categories/iot/atom.xml" rel="self"/>
+  <link href="http://www.sofianhw.com/"/>
+  <updated>2015-09-07T10:04:23+07:00</updated>
+  <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
+    <id>http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
 
 <p><img class="center" src="/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="&lsquo;sofian hadiwijaya bendera&rsquo;" ></p>
@@ -262,9 +262,9 @@ access_token_secret=
   
   <entry>
     <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <link href="http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
     <updated>2015-07-05T01:48:40+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
+    <id>http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
     <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
 
 <p>Sebuah konsep dimana benda/objek dengan bantuan perangkat elektronik, perngkat lunak, sensor, dan konektivitas/internet yang membuat benda tersebut dapat bertukaran data / informasi, yang menyebabkan benda tersebut bisa saling berinteraksi dan lebih pintar.</p>
@@ -316,9 +316,9 @@ yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
+    <id>http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
 
 <p>Pada postingan sebelumnya kita sudah membahas cara menghubungkan <a href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/">Intel Galileo ke Geeknesia dengan menggunakan nodejs</a>. Kemudian minggu lalu saya juga menulis tentang <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">dasar-dasar Python</a>. Nah gimana menurut kalian bahasa Python sendiri?.</p>
@@ -541,9 +541,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
+    <id>http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
 Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em>Intel Edison</em>. Pada tulisan saat ini saya tidak akan banyak menulis tentang <em>board</em> tersebut, saya akan bercerita pengalaman sayang menggunakan <em>platform IoT</em> asli <em>made in</em> Bandung yaitu <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 
@@ -642,9 +642,9 @@ untuk melihat apakah kode tersebut berjalan dengan sempurna, kita kembali ke <em
   
   <entry>
     <title type="html"><![CDATA[Blinky LED Using Intel Galileo Board]]></title>
-    <link href="http://blog.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
+    <link href="http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
     <updated>2015-06-11T23:55:39+07:00</updated>
-    <id>http://blog.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
+    <id>http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
     <content type="html"><![CDATA[<p>After the <a href="http://www.bigdataindonesia.com/hackathon.php">IoT Hackathon</a> event held at <a href="www.crazyhackerz.com">Crazy Hackerz Makerspace</a> (7-8 March 2015), Intel decided to lend us the Intel Galileo for us to experiment and play around with it. In genereal Intel Galileo is embedded board which is a combination of the Arduino Uno with an Intel X1000 SoC Quark.  In short, Intel Galileo is a mini computer with the concept of DIY (Do it Yourself) which is similar to the Raspberry Pi.</p>
 
 <!-- more -->
