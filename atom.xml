@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://www.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://www.sofianhw.com/"/>
-  <updated>2015-09-07T10:04:23+07:00</updated>
+  <updated>2015-09-07T17:45:14+07:00</updated>
   <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[The Zen of Python]]></title>
+    <link href="http://www.sofianhw.com/blog/2015/09/07/the-zen-of-python/"/>
+    <updated>2015-09-07T11:50:44+07:00</updated>
+    <id>http://www.sofianhw.com/blog/2015/09/07/the-zen-of-python</id>
+    <content type="html"><![CDATA[<p>Beautiful is better than ugly.</p>
+
+<p>Explicit is better than implicit.</p>
+
+<p>Simple is better than complex.</p>
+
+<p>Complex is better than complicated.</p>
+
+<p>Flat is better than nested.</p>
+
+<p>Sparse is better than dense.</p>
+
+<p>Readability counts.</p>
+
+<!-- more -->
+
+
+<p>Special cases aren&rsquo;t special enough to break the rules.</p>
+
+<p>Although practicality beats purity.</p>
+
+<p>Errors should never pass silently.</p>
+
+<p>Unless explicitly silenced.</p>
+
+<p>In the face of ambiguity, refuse the temptation to guess.</p>
+
+<p>There should be one&ndash; and preferably only one &ndash;obvious way to do it.</p>
+
+<p>Although that way may not be obvious at first unless you&rsquo;re Dutch.</p>
+
+<p>Now is better than never.</p>
+
+<p>Although never is often better than <em>right</em> now.</p>
+
+<p>If the implementation is hard to explain, it&rsquo;s a bad idea.</p>
+
+<p>If the implementation is easy to explain, it may be a good idea.</p>
+
+<p>Namespaces are one honking great idea &ndash; let&rsquo;s do more of those!</p>
+
+<p><a href="https://www.python.org/dev/peps/pep-0020/">Source</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
