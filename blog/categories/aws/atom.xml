@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Aws | Sofian Hadiwijaya]]></title>
   <link href="http://www.sofianhw.com/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://www.sofianhw.com/"/>
-  <updated>2015-10-09T02:34:07+07:00</updated>
+  <updated>2015-10-21T00:57:15+07:00</updated>
   <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -21,6 +21,9 @@
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
 
 <p><img class="center <a" src="href="https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738">https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738</a>"></p>
+
+<!-- more -->
+
 
 <p>Amazon menjelaskan, &ldquo;AWS IoT memungkinkan perangkat yang terhubung dengan mudah dan aman berinteraksi dengan aplikasi cloud dan perangkat lainnya.&rdquo;. Platform yang masih versi beta tersebut, dapat mengelola miliaran perangkat dan triliunan pesan, &ldquo;Dan dapat memproses dan mengatur rute pesan-pesan ke AWS endpoint dan perangkat lain andal dan aman.&rdquo;</p>
 
