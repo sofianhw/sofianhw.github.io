@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Vr | Sofian Hadiwijaya]]></title>
+  <link href="http://www.sofianhw.com/blog/categories/vr/atom.xml" rel="self"/>
+  <link href="http://www.sofianhw.com/"/>
+  <updated>2015-10-21T01:00:04+07:00</updated>
+  <id>http://www.sofianhw.com/</id>
+  <author>
+    <name><![CDATA[Sofian Hadiwijaya]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Google Game DevFest 2015 - Virtual Reality]]></title>
+    <link href="http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
+    <updated>2015-10-20T23:48:10+07:00</updated>
+    <id>http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
+    <content type="html"><![CDATA[<p>Setelah beberapa kali menjadi peserta dibeberapa acara Google baik di Indonesia dan Singapura. Kali ini saya beruntung karena diundang menjadi salah satu pembicara diacara Google Game DevFest 2015. Saya mendapatkan kesempatan membahas tentang &ldquo;Developing Virtual Reality Content&rdquo;.</p>
+
+<p><img class="center" src="/images/EHmPaN4.jpg" title="&lsquo;Reality is merely an illusion - Virtual Reality&rsquo;" ></p>
+
+<!-- more -->
+
+
+<p>Tahun ini DevFest diselenggarakan lima kota antara lain : Jakarta, Bandung, Jogja, Semarang, dan Surabaya. Saya sendiri mendapat tugas ditiga kota yakni: Jogja, Semarang, dan Surabaya.</p>
+
+<p><img class="center" src="/images/devfest2015-jogja.jpg" title="&lsquo;Google Game DevFest 2015 Jogja&rsquo;" >
+<img class="center" src="/images/devfest2015-semarang.jpg" title="&lsquo;Google Game DevFest 2015 Semarang&rsquo;" ></p>
+
+<p>Selain menjadi pembicara, saya juga diberi kepercayaan untuk memberikan workshop tentang Virtual Reality. Mari kita bahas apa itu Virtual Reality.</p>
+
+<p><img class="center" src="/images/devfest2015-surabaya.jpg" title="&lsquo;Google Game DevFest 2015 Surabaya&rsquo;" ></p>
+
+<p>Seperti biasa sebelum masuk kemateri inti saya memperkenalkan diri dulu kepada peserta.</p>
+
+<blockquote><p>Virtual Reality (VR), which can be referred to as immersive multimedia or computer-simulated life, replicates an environment that simulates physical presence in places in the real world or imagined worlds and lets the user interact in that world. - <a href="https://en.wikipedia.org/wiki/Virtual_reality">Wikipedia</a></p></blockquote>
+
+<p>Ternyata Virtual Reality bukanlah hal yang baru. Pada tahun 1968, <a href="https://en.wikipedia.org/wiki/Ivan_Sutherland">Ivan Sutherland</a>, telah bereksperimen dengan head-mounted displays, yang nantinya menjadi cikal bakal hardware Virtual Reality sekarang.</p>
+
+<p><img class="center" src="/images/ivan-sutherland-virtual-reality.jpg" title="&lsquo;Ivan Sutherland Virtual Reality&rsquo;" ></p>
+
+<p>Dan jika kita lihat gambar diatas, sepertinya sangat kompleks untuk membuat peralatan Virtual Reality. Seiring berjalannya penjualan <em>smartphone</em> yang dahsyat, berpengaruh terhadap harga bahan-bahan pendukung <em>smartphone</em>. Dimana beberapa hardware pendukung teknologi Virtual Reality memiliki kesamaan dengan <em>smartphone</em>. Sehingga sekarang Google berniat membawa teknologi Virtual Reality bisa dinikmati semua orang. Maka dari itu Google memperkenalkan <a href="https://developers.google.com/cardboard">CardBoard</a>.</p>
+
+<p><img class="center" src="/images/cardboard-google.jpg" title="&lsquo;Google Cardboard&rsquo;" ></p>
+
+<p>Berikut slide presentasi saya:</p>
+
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/54180986 " width="595" height="446" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen></iframe> </p>
+
+<p>Setelah memberikan seminar singkat tentang apa itu Virtual Reality dan bagaimana cara membuat konten dengan teknologi terbaru tersebut. Pada sorenya kita lanjut workshop untuk membuat aplikasi virtual reality yang sederhana. Jika Anda tertarik untuk mengikutinya juga, kalian bisa menuju link berikut <a href="http://io2015codelabs.appspot.com/codelabs/cardboard-unity">Cardboard Codelab</a>.</p>
+
+<p><img class="center" src="/images/virtual-reality-codelab.JPG" title="&lsquo;Virtual Reality Codelab&rsquo;" ></p>
+]]></content>
+  </entry>
+  
+</feed>
