@@ -4,7 +4,7 @@
   <title><![CDATA[Sofian Hadiwijaya]]></title>
   <link href="http://www.sofianhw.com/atom.xml" rel="self"/>
   <link href="http://www.sofianhw.com/"/>
-  <updated>2015-10-21T01:02:38+07:00</updated>
+  <updated>2015-11-08T12:05:14+07:00</updated>
   <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -12,6 +12,90 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing KilatIron by CloudKilat - Platform as a Service]]></title>
+    <link href="http://www.sofianhw.com/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service/"/>
+    <updated>2015-11-08T10:45:12+07:00</updated>
+    <id>http://www.sofianhw.com/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service</id>
+    <content type="html"><![CDATA[<p>Pengen cerita pengalaman menjadi beta tester <a href="http://beta.kilatiron.net/">KilatIron</a> salah satu produk <a href="http://cloudkilat.id/">CloudKilat</a>. <a href="http://beta.kilatiron.net/">KilatIron</a> sepertinya perusahaan Indonesia pertama yang menyediakan layanan <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">Platform as a Service (PaaS)</a>.</p>
+
+<!-- more -->
+
+
+<p>Sekilas layanan ini mirip dengan <a href="https://www.heroku.com/">Heroku</a> dan <a href="https://www.cloudcontrol.com/">CloudControl</a>. Jadi yang sudah terbiasa menggunakan <a href="https://www.heroku.com/">Heroku</a> atau <a href="https://www.cloudcontrol.com/">CloudControl</a> bisa dengan mudah mengaplikasikannya. Jika Anda penasaran silakan register <a href="http://beta.kilatiron.net/">http://beta.kilatiron.net/</a> , mumpung masih free. Katanya sih harga layanan <a href="http://beta.kilatiron.net/">KilatIron</a> ini akan super murah.</p>
+
+<p>Jika Anda sudah daftar. Tampilan dashboardnya kurang lebih seperti ini</p>
+
+<p><img class="center" src="http://www.sofianhw.com/images/kilatiron-dashboard.png" title="'kilatiron dashboard'" ></p>
+
+<p>Anda bisa menggunakan gui untuk membuat sebuah aplikasi. Untuk saat ini <a href="http://beta.kilatiron.net/">KilatIron</a> sudah support untuk <a href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>, nodejs, php, ruby, java. Jika bahasa kesayangan Anda belum tersedia Anda bisa menggukanan custom buildpack. Saya pribadi lebih suka monggunakan command line. Jadi mari kita membaca dokumentasinya <a href="https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md">https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md</a> .</p>
+
+<p>Oke saya anggap semuanya udah menginstall git dan pip, kalo <a href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a> sudah bawaan pastinya, kecuali di microsoft windows xx kayaknya butuh tools tambahan.</p>
+
+<p>Mari kita mulai pertama install ironcli</p>
+
+<pre><code class="bash">$ sudo pip install ironcli
+</code></pre>
+
+<p><em>Yang pake Windows:</em> bisa download disini <a href="https://download.cloudcontrolled.net/windows">installernya</a>.</p>
+
+<p>Setelah itu tambahkan Public Key</p>
+
+<pre><code class="bash">$ ironuser key.add
+Email   : EMAIL
+Password: PASSWORD
+</code></pre>
+
+<p><em>Menggunakan email dan password sewaktu daftar</em></p>
+
+<p>Mari kita buat aplikasi kita dengan cara</p>
+
+<pre><code class="bash">$ ironapp nama_aplikasi create [java, php, python, ruby, nodejs]
+</code></pre>
+
+<p>Jika nama_aplikasi yang kita tidak tersedia, bearti nama itu sudah digunakan, maka pilih nama yang lain. Nama_aplikasi akan menjadi subdomain di kilatiron.net, setelah aplikasi kita berhasil maka kita bisa mengaksesnya melalui nama_aplikasi.kilatiron.net</p>
+
+<p>Misal saya itu seneng banget sama Nodejs nah untuk membuat aplikasi nodejs running di <a href="http://beta.kilatiron.net/">KilatIron</a> begini caranya:</p>
+
+<pre><code class="bash">$ ironapp expressnodejs create nodejs
+</code></pre>
+
+<p>Untuk lebih simple saya memakai repository yang ada pada github.</p>
+
+<pre><code class="bash"># for Node.js
+$ git clone https://github.com/cloudControl/nodejs-express-example-app.git
+$ cd nodejs-express-example-app
+</code></pre>
+
+<p>Jika Anda terbiasa dengan CPanel dimana kita bisa menggunakan ftp, untuk <a href="http://beta.kilatiron.net/">KilatIron</a> prosesnya nanti <a href="http://beta.kilatiron.net/">KilatIron</a> akan mengambil source codenya dari repository yang ada.</p>
+
+<p>Setelah itu mari kita push ke server kilatiron</p>
+
+<pre><code class="bash"># now push
+$ ironapp expressnodejs/default push
+</code></pre>
+
+<p>Akan ada proses yang lumayan sampai image dari aplikasi kita selesai</p>
+
+<pre><code class="bash">$ -----&gt; Receiving push
+............
+............
+$ -----&gt; Building image
+$ -----&gt; Uploading image
+</code></pre>
+
+<p>Setelah itu kita bisa mendeploy aplikasi kita dengan</p>
+
+<pre><code class="bash"># now deploy
+$ ironapp expressnodejs/default deploy
+</code></pre>
+
+<p>Selamat aplikasi kita sudah siap diakses. Caranya adalah <a href="http://nama_aplikasi.kilatiron.net">http://nama_aplikasi.kilatiron.net</a> , pada contoh diatas Anda bisa mengakses melalui <a href="http://expressnodejs.kilatiron.net/">http://expressnodejs.kilatiron.net/</a></p>
+
+<p>Selanjutnya akan saya bahas menggunakan custom buildpack. Selamat mencoba!!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Google Game DevFest 2015 - Virtual Reality]]></title>
