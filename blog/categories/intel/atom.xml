@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Intel | Sofian Hadiwijaya]]></title>
   <link href="http://www.sofianhw.com/blog/categories/intel/atom.xml" rel="self"/>
   <link href="http://www.sofianhw.com/"/>
-  <updated>2016-08-16T00:02:45+07:00</updated>
+  <updated>2016-08-16T00:05:32+07:00</updated>
   <id>http://www.sofianhw.com/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
@@ -252,7 +252,7 @@ access_token_secret=
 <pre><code class="sh Terminal">$ python countTweets.py -oauth token_key.txt [kata]
 </code></pre>
 
-<p>Berikut video yang sudah dipercepat, soalnya kemaren butuh 2jam.</p>
+<p>Berikut video pada saat 17 Agustusan yang sudah dipercepat, soalnya kemaren butuh 2jam.</p>
 
 <p><div class="embed-video-container"><iframe src="//www.youtube.com/embed/5ZYtQOPkfqs" allowfullscreen></iframe></div></p>
 
