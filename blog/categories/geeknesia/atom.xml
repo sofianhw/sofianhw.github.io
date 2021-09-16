@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Geeknesia | Sofian Hadiwijaya]]></title>
-  <link href="https://sofian.hadiwijaya.co/blog/categories/geeknesia/atom.xml" rel="self"/>
-  <link href="https://sofian.hadiwijaya.co/"/>
+  <link href="https:///sofian.hadiwijaya.co/blog/categories/geeknesia/atom.xml" rel="self"/>
+  <link href="https:///sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
   <id>https://sofian.hadiwijaya.co/</id>
   <author>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
@@ -240,7 +240,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>

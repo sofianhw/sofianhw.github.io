@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Iot | Sofian Hadiwijaya]]></title>
-  <link href="https://sofian.hadiwijaya.co/blog/categories/iot/atom.xml" rel="self"/>
-  <link href="https://sofian.hadiwijaya.co/"/>
+  <link href="https:///sofian.hadiwijaya.co/blog/categories/iot/atom.xml" rel="self"/>
+  <link href="https:///sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
   <id>https://sofian.hadiwijaya.co/</id>
   <author>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Amazon Meluncurkan AWS IoT (Internet of Things)]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
     <updated>2015-10-09T01:25:51+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
@@ -73,7 +73,7 @@
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
@@ -320,7 +320,7 @@ access_token_secret=
   
   <entry>
     <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
     <updated>2015-07-05T01:48:40+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
     <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
@@ -374,7 +374,7 @@ yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
@@ -599,7 +599,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>

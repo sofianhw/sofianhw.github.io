@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Sofian Hadiwijaya]]></title>
-  <link href="https://sofian.hadiwijaya.co/atom.xml" rel="self"/>
-  <link href="https://sofian.hadiwijaya.co/"/>
+  <link href="https:///sofian.hadiwijaya.co/atom.xml" rel="self"/>
+  <link href="https:///sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
   <id>https://sofian.hadiwijaya.co/</id>
   <author>
@@ -15,7 +15,7 @@
   
   <entry>
     <title type="html"><![CDATA[Testing KilatIron by CloudKilat - Platform as a Service]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service/"/>
     <updated>2015-11-08T10:45:12+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service</id>
     <content type="html"><![CDATA[<p>Pengen cerita pengalaman menjadi beta tester <a href="http://beta.kilatiron.net/">KilatIron</a> salah satu produk <a href="http://cloudkilat.id/">CloudKilat</a>. <a href="http://beta.kilatiron.net/">KilatIron</a> sepertinya perusahaan Indonesia pertama yang menyediakan layanan <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">Platform as a Service (PaaS)</a>.</p>
@@ -99,7 +99,7 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[Google Game DevFest 2015 - Virtual Reality]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
     <updated>2015-10-20T23:48:10+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
     <content type="html"><![CDATA[<p>Setelah beberapa kali menjadi peserta dibeberapa acara Google baik di Indonesia dan Singapura. Kali ini saya beruntung karena diundang menjadi salah satu pembicara diacara Google Game DevFest 2015. Saya mendapatkan kesempatan membahas tentang &ldquo;Developing Virtual Reality Content&rdquo;.</p>
@@ -145,7 +145,7 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[Amazon Meluncurkan AWS IoT (Internet of Things)]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
     <updated>2015-10-09T01:25:51+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
@@ -203,7 +203,7 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[The Zen of Python]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/09/07/the-zen-of-python/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/09/07/the-zen-of-python/"/>
     <updated>2015-09-07T11:50:44+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/09/07/the-zen-of-python</id>
     <content type="html"><![CDATA[<p>Beautiful is better than ugly.</p>
@@ -253,7 +253,7 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
@@ -673,7 +673,7 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Berkenalan Dengan Keyboard DVORAK]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/26/berkelan-dengan-keyboard-dvorak/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/26/berkelan-dengan-keyboard-dvorak/"/>
     <updated>2015-07-26T00:29:41+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/26/berkelan-dengan-keyboard-dvorak</id>
     <content type="html"><![CDATA[<p>Tahun 2012 lalu teamku menjuarai kompetisi <a href="http://chip.co.id/news/blackberry/4086/indonesia_juara_blackberry_jam_asia_di_bangkok">Hackathon Blackberry di Indonesia dan Asia 2012</a>. Selain pengalaman hackathon ada hal menarik lainnya yang saya dapatkan, pada waktu itu salah satu mentor kami menggunakan keyboard dengan layout <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>. <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a> mengklaim bahwa dirinya merupakan layout keyboard yang efisien sehingga bisa mempercepat dalam mengetik.</p>
@@ -713,7 +713,7 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Golang]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
     <updated>2015-07-12T14:09:32+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
     <content type="html"><![CDATA[<p>Bulan lalu kantor saya kedatangan CTO dari <a href="http://www.go-jek.com">Go-Jek</a> (<a href="https://plus.google.com/+SheranGunasekera">Sheran Gunasekera</a>), beliau sharing tentang beberapa masalah yang dialami oleh <a href="http://www.go-jek.com">Go-Jek</a>, salah satunya yaitu masalah <em>concurrency</em>, untuk menyelesaikan masalah ini mereka berniat migrasi ke <a href="http://golang.org">Go</a>. Karena penasaran saya juga mencoba untuk belajar <a href="http://golang.org">Go</a>.
@@ -1335,7 +1335,7 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
     <updated>2015-07-05T01:48:40+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
     <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
@@ -1389,7 +1389,7 @@ yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
@@ -1644,7 +1644,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Python]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
     <updated>2015-06-29T00:04:38+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
     <content type="html"><![CDATA[<p>Seiring dengan pesatnya perkembangan <em>mini computer</em> <em>raspberry pi</em>, makin banyak <em>programmer</em> yang kembali melirik bahasa pemrogramman yang sudah cukup tua, yaitu <em>python</em>. Python merupakan bahasa pemrogramman yang mengedepankan <em>readability</em> dan <em>productivity</em>. Mungkin hal tersebut yang membuat para pengembang <em>raspberry pi</em> memilih Python sebagai bahasa pemrogramman yang mereka gunakan dalam pembuatan perangkat lunak yang bisa mengontrol <em>board</em> mereka.</p>
@@ -1696,7 +1696,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[Membuat Web Atau Blog Statis Gratis Pada Github Dengan Octopress]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
     <updated>2015-06-19T21:59:34+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
     <content type="html"><![CDATA[<p>Hari ini kita bakal bahas bagaimana cara membuat blog ini. Blog ini merupakan blog statis, dimana tidak ada CMS (Content Management System) dan blog ini hanya terdiri dari HTML, CSS, JavaScript. Dan tentunya free, dengan manfaatkan <em>fitur</em> <a href="http://github.com">Github</a> pages dan <em>framework</em> blog statis seperti <a href="http://octopress.org">Octopress</a>.</p>
@@ -1784,7 +1784,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
@@ -1940,7 +1940,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
   
   <entry>
     <title type="html"><![CDATA[Blinky LED Using Intel Galileo Board]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
     <updated>2015-06-11T23:55:39+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
     <content type="html"><![CDATA[<p>After the <a href="http://www.bigdataindonesia.com/hackathon.php">IoT Hackathon</a> event held at <a href="www.crazyhackerz.com">Crazy Hackerz Makerspace</a> (7-8 March 2015), Intel decided to lend us the Intel Galileo for us to experiment and play around with it. In genereal Intel Galileo is embedded board which is a combination of the Arduino Uno with an Intel X1000 SoC Quark.  In short, Intel Galileo is a mini computer with the concept of DIY (Do it Yourself) which is similar to the Raspberry Pi.</p>
@@ -2044,7 +2044,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="https://sofian.hadiwijaya.co/blog/2015/06/11/hello-world/"/>
+    <link href="https:///sofian.hadiwijaya.co/blog/2015/06/11/hello-world/"/>
     <updated>2015-06-11T19:15:13+07:00</updated>
     <id>https://sofian.hadiwijaya.co/blog/2015/06/11/hello-world</id>
     <content type="html"><![CDATA[<h2>You are reading my blog now!</h2>
