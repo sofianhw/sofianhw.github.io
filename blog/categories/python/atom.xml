@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Python | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/python/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/python/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
 
 <p><img class="center" src="/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="&lsquo;sofian hadiwijaya bendera&rsquo;" ></p>
@@ -262,9 +262,9 @@ access_token_secret=
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
 
 <p>Pada postingan sebelumnya kita sudah membahas cara menghubungkan <a href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/">Intel Galileo ke Geeknesia dengan menggunakan nodejs</a>. Kemudian minggu lalu saya juga menulis tentang <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">dasar-dasar Python</a>. Nah gimana menurut kalian bahasa Python sendiri?.</p>
@@ -487,9 +487,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Python]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
     <updated>2015-06-29T00:04:38+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
     <content type="html"><![CDATA[<p>Seiring dengan pesatnya perkembangan <em>mini computer</em> <em>raspberry pi</em>, makin banyak <em>programmer</em> yang kembali melirik bahasa pemrogramman yang sudah cukup tua, yaitu <em>python</em>. Python merupakan bahasa pemrogramman yang mengedepankan <em>readability</em> dan <em>productivity</em>. Mungkin hal tersebut yang membuat para pengembang <em>raspberry pi</em> memilih Python sebagai bahasa pemrogramman yang mereka gunakan dalam pembuatan perangkat lunak yang bisa mengontrol <em>board</em> mereka.</p>
 
 <!-- more -->

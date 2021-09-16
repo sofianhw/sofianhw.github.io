@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Amazon | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/amazon/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/amazon/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Amazon Meluncurkan AWS IoT (Internet of Things)]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
     <updated>2015-10-09T01:25:51+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
 
 <p><img class="center <a" src="href="https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738">https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738</a>"></p>

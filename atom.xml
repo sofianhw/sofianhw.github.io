@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Testing KilatIron by CloudKilat - Platform as a Service]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service/"/>
     <updated>2015-11-08T10:45:12+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/11/08/testing-kilatiron-by-cloudkilat-platform-as-a-service</id>
     <content type="html"><![CDATA[<p>Pengen cerita pengalaman menjadi beta tester <a href="http://beta.kilatiron.net/">KilatIron</a> salah satu produk <a href="http://cloudkilat.id/">CloudKilat</a>. <a href="http://beta.kilatiron.net/">KilatIron</a> sepertinya perusahaan Indonesia pertama yang menyediakan layanan <a href="https://en.wikipedia.org/wiki/Platform_as_a_service">Platform as a Service (PaaS)</a>.</p>
 
 <!-- more -->
@@ -27,11 +27,11 @@
 
 <p>Jika Anda sudah daftar. Tampilan dashboardnya kurang lebih seperti ini</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/kilatiron-dashboard.png" title="'kilatiron dashboard'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/kilatiron-dashboard.png" title="'kilatiron dashboard'" ></p>
 
-<p>Anda bisa menggunakan gui untuk membuat sebuah aplikasi. Untuk saat ini <a href="http://beta.kilatiron.net/">KilatIron</a> sudah support untuk <a href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>, nodejs, php, ruby, java. Jika bahasa kesayangan Anda belum tersedia Anda bisa menggukanan custom buildpack. Saya pribadi lebih suka monggunakan command line. Jadi mari kita membaca dokumentasinya <a href="https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md">https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md</a> .</p>
+<p>Anda bisa menggunakan gui untuk membuat sebuah aplikasi. Untuk saat ini <a href="http://beta.kilatiron.net/">KilatIron</a> sudah support untuk <a href="https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a>, nodejs, php, ruby, java. Jika bahasa kesayangan Anda belum tersedia Anda bisa menggukanan custom buildpack. Saya pribadi lebih suka monggunakan command line. Jadi mari kita membaca dokumentasinya <a href="https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md">https://github.com/CloudKilat/kilatiron-doc/blob/master/Quickstart.md</a> .</p>
 
-<p>Oke saya anggap semuanya udah menginstall git dan pip, kalo <a href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a> sudah bawaan pastinya, kecuali di microsoft windows xx kayaknya butuh tools tambahan.</p>
+<p>Oke saya anggap semuanya udah menginstall git dan pip, kalo <a href="https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">Python</a> sudah bawaan pastinya, kecuali di microsoft windows xx kayaknya butuh tools tambahan.</p>
 
 <p>Mari kita mulai pertama install ironcli</p>
 
@@ -99,24 +99,24 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[Google Game DevFest 2015 - Virtual Reality]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
     <updated>2015-10-20T23:48:10+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
     <content type="html"><![CDATA[<p>Setelah beberapa kali menjadi peserta dibeberapa acara Google baik di Indonesia dan Singapura. Kali ini saya beruntung karena diundang menjadi salah satu pembicara diacara Google Game DevFest 2015. Saya mendapatkan kesempatan membahas tentang &ldquo;Developing Virtual Reality Content&rdquo;.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/EHmPaN4.jpg" title="'Reality is merely an illusion - Virtual Reality'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/EHmPaN4.jpg" title="'Reality is merely an illusion - Virtual Reality'" ></p>
 
 <!-- more -->
 
 
 <p>Tahun ini DevFest diselenggarakan lima kota antara lain : Jakarta, Bandung, Jogja, Semarang, dan Surabaya. Saya sendiri mendapat tugas ditiga kota yakni: Jogja, Semarang, dan Surabaya.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/devfest2015-jogja.jpg" title="'Google Game DevFest 2015 Jogja'" >
-<img class="center" src="http://www.sofianhw.com/images/devfest2015-semarang.jpg" title="'Google Game DevFest 2015 Semarang'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/devfest2015-jogja.jpg" title="'Google Game DevFest 2015 Jogja'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/devfest2015-semarang.jpg" title="'Google Game DevFest 2015 Semarang'" ></p>
 
 <p>Selain menjadi pembicara, saya juga diberi kepercayaan untuk memberikan workshop tentang Virtual Reality. Mari kita bahas apa itu Virtual Reality.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/devfest2015-surabaya.jpg" title="'Google Game DevFest 2015 Surabaya'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/devfest2015-surabaya.jpg" title="'Google Game DevFest 2015 Surabaya'" ></p>
 
 <p>Seperti biasa sebelum masuk kemateri inti saya memperkenalkan diri dulu kepada peserta.</p>
 
@@ -124,11 +124,11 @@ $ ironapp expressnodejs/default deploy
 
 <p>Ternyata Virtual Reality bukanlah hal yang baru. Pada tahun 1968, <a href="https://en.wikipedia.org/wiki/Ivan_Sutherland">Ivan Sutherland</a>, telah bereksperimen dengan head-mounted displays, yang nantinya menjadi cikal bakal hardware Virtual Reality sekarang.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/ivan-sutherland-virtual-reality.jpg" title="'Ivan Sutherland Virtual Reality'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/ivan-sutherland-virtual-reality.jpg" title="'Ivan Sutherland Virtual Reality'" ></p>
 
 <p>Dan jika kita lihat gambar diatas, sepertinya sangat kompleks untuk membuat peralatan Virtual Reality. Seiring berjalannya penjualan <em>smartphone</em> yang dahsyat, berpengaruh terhadap harga bahan-bahan pendukung <em>smartphone</em>. Dimana beberapa hardware pendukung teknologi Virtual Reality memiliki kesamaan dengan <em>smartphone</em>. Sehingga sekarang Google berniat membawa teknologi Virtual Reality bisa dinikmati semua orang. Maka dari itu Google memperkenalkan <a href="https://developers.google.com/cardboard">CardBoard</a>.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/cardboard-google.jpg" title="'Google Cardboard'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/cardboard-google.jpg" title="'Google Cardboard'" ></p>
 
 <p>Berikut slide presentasi saya:</p>
 
@@ -139,15 +139,15 @@ $ ironapp expressnodejs/default deploy
 
 <p>Setelah memberikan seminar singkat tentang apa itu Virtual Reality dan bagaimana cara membuat konten dengan teknologi terbaru tersebut. Pada sorenya kita lanjut workshop untuk membuat aplikasi virtual reality yang sederhana. Jika Anda tertarik untuk mengikutinya juga, kalian bisa menuju link berikut <a href="http://io2015codelabs.appspot.com/codelabs/cardboard-unity">Cardboard Codelab</a>.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/virtual-reality-codelab.JPG" title="'Virtual Reality Codelab'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/virtual-reality-codelab.JPG" title="'Virtual Reality Codelab'" ></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Amazon Meluncurkan AWS IoT (Internet of Things)]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
     <updated>2015-10-09T01:25:51+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
 
 <p><img class="center" src="https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738"></p>
@@ -203,9 +203,9 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[The Zen of Python]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/09/07/the-zen-of-python/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/09/07/the-zen-of-python/"/>
     <updated>2015-09-07T11:50:44+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/09/07/the-zen-of-python</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/09/07/the-zen-of-python</id>
     <content type="html"><![CDATA[<p>Beautiful is better than ugly.</p>
 
 <p>Explicit is better than implicit.</p>
@@ -253,12 +253,12 @@ $ ironapp expressnodejs/default deploy
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="'sofian hadiwijaya bendera'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="'sofian hadiwijaya bendera'" ></p>
 
 <!-- more -->
 
@@ -280,27 +280,27 @@ $ ironapp expressnodejs/default deploy
 </ul>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-edison.JPG" width="480" height="480" title="'intel edison'" >
-<img class="center" src="http://www.sofianhw.com/images/uln2803a-depan.JPG" width="480" height="480" title="'uln2803a depan'" >
-<img class="center" src="http://www.sofianhw.com/images/stepper-motor.JPG" width="480" height="480" title="'stepper motor'" >
-<img class="center" src="http://www.sofianhw.com/images/timing-belt.JPG" width="480" height="480" title="'timing belt 3d printer'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-edison.JPG" width="480" height="480" title="'intel edison'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/uln2803a-depan.JPG" width="480" height="480" title="'uln2803a depan'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/stepper-motor.JPG" width="480" height="480" title="'stepper motor'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/timing-belt.JPG" width="480" height="480" title="'timing belt 3d printer'" ></p>
 
 <p>Pertama-tama saya akan rakit tiang benderanya dulu. Ikatkan dudukan kamera dan stepper motor pada gagang sapu menggunakan kabel tie.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/terikat-atas.JPG" width="480" height="480" title="'terikat atas'" >
-<img class="center" src="http://www.sofianhw.com/images/terikat-bawah.JPG" width="480" height="480" title="'terikat bawah'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/terikat-atas.JPG" width="480" height="480" title="'terikat atas'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/terikat-bawah.JPG" width="480" height="480" title="'terikat bawah'" ></p>
 
 <p>pastikan <em>timing belt</em> tidak terlalu kencang maupun kendor.</p>
 
 <p>Setelah itu marilah kita rakit rangkaian ULN dan intel edison sebagai berikut :</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/scheme-uln-arduino-stepper.jpg" width="480" height="480" title="'scheme uln arduino stepper'" >
-<img class="center" src="http://www.sofianhw.com/images/uln-depan.JPG" width="480" height="480" title="'uln2803a depan'" >
-<img class="center" src="http://www.sofianhw.com/images/uln-samping.JPG" width="480" height="480" title="'uln2803a samping'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/scheme-uln-arduino-stepper.jpg" width="480" height="480" title="'scheme uln arduino stepper'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/uln-depan.JPG" width="480" height="480" title="'uln2803a depan'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/uln-samping.JPG" width="480" height="480" title="'uln2803a samping'" ></p>
 
 <p>Mari kita sambungkan keseluruhan <em>system</em></p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/kerekan-bendera-diy.JPG" width="480" height="480" title="'kerekan bendera diy'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/kerekan-bendera-diy.JPG" width="480" height="480" title="'kerekan bendera diy'" ></p>
 
 <p>Selanjutnya mari kita putar-putar kerekannya. Berikut kode yang saya tulis menggunakan bahasa <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">python</a>.</p>
 
@@ -417,7 +417,7 @@ $ ironapp expressnodejs/default deploy
 <p>Ketika semua step dianggap sukses sekarang marilah kita hubungkan ke twitter.
 sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">aplikasi pada twitter</a> kita.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/twitter-hackathon-merdeka.png" width="480" height="480" title="'twitter hackathon merdeka'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/twitter-hackathon-merdeka.png" width="480" height="480" title="'twitter hackathon merdeka'" ></p>
 
 <p>Kita akan memanfaatkan <a href="https://dev.twitter.com/streaming/overview">API Streaming</a> untuk mendapatkan jumlah tweet secara <em>real-time</em>.</p>
 
@@ -673,12 +673,12 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Berkenalan Dengan Keyboard DVORAK]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/26/berkelan-dengan-keyboard-dvorak/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/26/berkelan-dengan-keyboard-dvorak/"/>
     <updated>2015-07-26T00:29:41+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/26/berkelan-dengan-keyboard-dvorak</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/26/berkelan-dengan-keyboard-dvorak</id>
     <content type="html"><![CDATA[<p>Tahun 2012 lalu teamku menjuarai kompetisi <a href="http://chip.co.id/news/blackberry/4086/indonesia_juara_blackberry_jam_asia_di_bangkok">Hackathon Blackberry di Indonesia dan Asia 2012</a>. Selain pengalaman hackathon ada hal menarik lainnya yang saya dapatkan, pada waktu itu salah satu mentor kami menggunakan keyboard dengan layout <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>. <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a> mengklaim bahwa dirinya merupakan layout keyboard yang efisien sehingga bisa mempercepat dalam mengetik.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/united-states-dvorak.png" title="'united states dvorak'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/united-states-dvorak.png" title="'united states dvorak'" ></p>
 
 <!-- more -->
 
@@ -687,7 +687,7 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
 
 <p>Setelah <em>stuck</em> bertahun-tahun, akhirnya minggu lalu ada temen yang bisa merubah layout keyboard macbook pro menjadi <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/macbook-pro-dvorak.jpg" title="'macbook pro dvorak'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/macbook-pro-dvorak.jpg" title="'macbook pro dvorak'" ></p>
 
 <p>Beberapa hari ini saya memulai berlatih dan membiasakan diri dengan <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>. Blog posting ini juga termasuk dalam bagian latihan saya.</p>
 
@@ -703,7 +703,7 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
 
 <p>Hari ini merupakan hari kedua saya menggunakan layout <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>. Hasil tes dari situs <a href="http://10fastfingers.com">10fastfingers.com</a> saya hanya mendapatkan skor 14 kata per menit.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/kecepatan-mengetik-dvorak.png" title="'kecepatan mengetik dvorak'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/kecepatan-mengetik-dvorak.png" title="'kecepatan mengetik dvorak'" ></p>
 
 <p>Belum cukup memuaskan, tetapi saya yakin dalam waktu dekat saya akan terbiasa dengan <a href="https://en.wikipedia.org/wiki/Dvorak_Simplified_Keyboard">DVORAK</a>.</p>
 
@@ -713,11 +713,11 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Golang]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang/"/>
     <updated>2015-07-12T14:09:32+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/12/pengenalan-bahasa-pemrogramman-golang</id>
     <content type="html"><![CDATA[<p>Bulan lalu kantor saya kedatangan CTO dari <a href="http://www.go-jek.com">Go-Jek</a> (<a href="https://plus.google.com/+SheranGunasekera">Sheran Gunasekera</a>), beliau sharing tentang beberapa masalah yang dialami oleh <a href="http://www.go-jek.com">Go-Jek</a>, salah satunya yaitu masalah <em>concurrency</em>, untuk menyelesaikan masalah ini mereka berniat migrasi ke <a href="http://golang.org">Go</a>. Karena penasaran saya juga mencoba untuk belajar <a href="http://golang.org">Go</a>.
-<img class="center" src="http://www.sofianhw.com/images/CTO-GoJek.jpg" title="'Bersama CTO Go-Jek'" ></p>
+<img class="center" src="https://sofian.hadiwijaya.co/images/CTO-GoJek.jpg" title="'Bersama CTO Go-Jek'" ></p>
 
 <!-- more -->
 
@@ -1335,9 +1335,9 @@ sebelum memulai ada baiknya kita membuat <a href="https://apps.twitter.com">apli
   
   <entry>
     <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
     <updated>2015-07-05T01:48:40+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
     <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
 
 <p>Sebuah konsep dimana benda/objek dengan bantuan perangkat elektronik, perngkat lunak, sensor, dan konektivitas/internet yang membuat benda tersebut dapat bertukaran data / informasi, yang menyebabkan benda tersebut bisa saling berinteraksi dan lebih pintar.</p>
@@ -1389,9 +1389,9 @@ yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
 
 <p>Pada postingan sebelumnya kita sudah membahas cara menghubungkan <a href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/">Intel Galileo ke Geeknesia dengan menggunakan nodejs</a>. Kemudian minggu lalu saya juga menulis tentang <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">dasar-dasar Python</a>. Nah gimana menurut kalian bahasa Python sendiri?.</p>
@@ -1498,7 +1498,7 @@ yang mengkoordinasi meetup ini Martin Kurniadi founder dari <a href="http://www.
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><video width='320' height='640' preload='metadata' controls poster='http://www.sofianhw.com/images/blinking-led-edison.jpg'><source src='http://www.sofianhw.com/images/blinking-led-edison.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
+<p><video width='320' height='640' preload='metadata' controls poster='https://sofian.hadiwijaya.co/images/blinking-led-edison.jpg'><source src='https://sofian.hadiwijaya.co/images/blinking-led-edison.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'></video></p>
 
 <p>Hore!!! LED-nya kedap-kedip.</p>
 
@@ -1632,8 +1632,8 @@ Mari kita execute script Python kita</p>
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/blinking-led-edison.jpg" width="320" height="320" title="'blinking led edison'" >
-<img class="center" src="http://www.sofianhw.com/images/data-device.jpg" title="'data-device'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/blinking-led-edison.jpg" width="320" height="320" title="'blinking led edison'" >
+<img class="center" src="https://sofian.hadiwijaya.co/images/data-device.jpg" title="'data-device'" ></p>
 
 <p>Intel Edison akan selalu mengirimkan data dari sensor LDR ke <a href="http://geeknesia.com">Geeknesia</a> dengan interval 60 detik.
 Semua source saya upload ke Github dengan nama repo <a href="https://github.com/sofianhw/python-mqtt-geeknesia">python-mqtt-geeknesia</a>.</p>
@@ -1644,9 +1644,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[Pengenalan Bahasa Pemrogramman Python]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/"/>
     <updated>2015-06-29T00:04:38+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python</id>
     <content type="html"><![CDATA[<p>Seiring dengan pesatnya perkembangan <em>mini computer</em> <em>raspberry pi</em>, makin banyak <em>programmer</em> yang kembali melirik bahasa pemrogramman yang sudah cukup tua, yaitu <em>python</em>. Python merupakan bahasa pemrogramman yang mengedepankan <em>readability</em> dan <em>productivity</em>. Mungkin hal tersebut yang membuat para pengembang <em>raspberry pi</em> memilih Python sebagai bahasa pemrogramman yang mereka gunakan dalam pembuatan perangkat lunak yang bisa mengontrol <em>board</em> mereka.</p>
 
 <!-- more -->
@@ -1671,7 +1671,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
 
 <p>Untuk menginstall python dapat mengikuti <a href="https://wiki.python.org/moin/BeginnersGuide/Download">link berikut</a>. Kebetulan OS yang saya pake adalah OSX maka python biasanya sudah termasuk dalam system unix dan linux. Jika sudah menginstall python, pada terminal/command prompt anda cukup mengetik &ldquo;python&rdquo; enter. Maka Anda akan dibawa ke python interpreter.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/python-interpreter.jpg" title="'python interpreter'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/python-interpreter.jpg" title="'python interpreter'" ></p>
 
 <h2>Pengenalan</h2>
 
@@ -1696,9 +1696,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[Membuat Web Atau Blog Statis Gratis Pada Github Dengan Octopress]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress/"/>
     <updated>2015-06-19T21:59:34+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/19/membuat-web-atau-blog-statis-gratis-pada-github-dengan-octopress</id>
     <content type="html"><![CDATA[<p>Hari ini kita bakal bahas bagaimana cara membuat blog ini. Blog ini merupakan blog statis, dimana tidak ada CMS (Content Management System) dan blog ini hanya terdiri dari HTML, CSS, JavaScript. Dan tentunya free, dengan manfaatkan <em>fitur</em> <a href="http://github.com">Github</a> pages dan <em>framework</em> blog statis seperti <a href="http://octopress.org">Octopress</a>.</p>
 
 <!-- more -->
@@ -1737,7 +1737,7 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
 
 <p>Pertama-tama buat <em>repository</em> baru pada <a href="http://github.com">Github</a> dengan format username.github.io ( ganti username dengan username kalian ). Berikut contohnya username saya ada <em>sofianhw</em>, maka _repository_nya adalah sofianhw.github.com.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/buat-repository-github-page.jpg" title="'buat-repository-github-page'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/buat-repository-github-page.jpg" title="'buat-repository-github-page'" ></p>
 
 <p>Setelah Anda menekan tombol <em>Create Repository</em>, <em>Github Page</em> Anda dapat diakses melalui <a href="http://username.github.io">http://username.github.io</a> , sebagai contoh untuk mengakses <a href="http://github.com">Github</a> saya bisa melalui <a href="http://sofianhw.github.io.">http://sofianhw.github.io.</a></p>
 
@@ -1784,9 +1784,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
 Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em>Intel Edison</em>. Pada tulisan saat ini saya tidak akan banyak menulis tentang <em>board</em> tersebut, saya akan bercerita pengalaman sayang menggunakan <em>platform IoT</em> asli <em>made in</em> Bandung yaitu <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 
@@ -1801,18 +1801,18 @@ Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em
 
 <p>Setelah mendapatkan akses, kita bisa menambahkan device yang kita punya dengan cara, mengklik button pada pojok kanan atas &ldquo;Add New Device&rdquo;, disini kita akan diminta untuk memberikan informasi <em>device</em> kita.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/add-new-device.jpg" title="'add new device'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/add-new-device.jpg" title="'add new device'" ></p>
 
 <p>jika semua data sudah diisi dengan benar, kita tekan tombol <em>create</em>. Setelah itu kita akan dibawa ke halaman yang memberikan informasi detail tentang device kita dan beberapa contoh API dari <a href="http://www.geeknesia.com">Geeknesia</a> yang dapat kita gunakan nantinya.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/detail-device.jpg" title="'detail device'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/detail-device.jpg" title="'detail device'" ></p>
 
 <h4>3. Menghubungkan Intel Galileo ke Geeknesia</h4>
 
 <p>Ada beberapa cara untuk menghubungkan Intel Galileo dan <a href="http://www.geeknesia.com">Geeknesia</a>. Namun pada artikel ini saya hanya akan membahas dengan menggunakan bahasa pemrogramman <em><a href="https://nodejs.org">nodejs</a></em> dan <em>protocol <a href="http://mqtt.org">mqtt</a></em>.
 Saya menggunakan Grove Starter Kit, untuk memudahkan dalam menggunakan LED dan sensor LDR.</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-geeknesia.jpg" title="'intel galileo geeknesia'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-geeknesia.jpg" title="'intel galileo geeknesia'" ></p>
 
 <p>Persiapkan Intel Galileo kalian, pertama-tama remote login Intel Galileo, bisa melalui ssh ataupun telnet ataupun screen. Untuk saat ini saya menggunakan ssh.
 Kemudian tulis kode berikut dan simpan</p>
@@ -1932,7 +1932,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 
 <p>untuk melihat apakah kode tersebut berjalan dengan sempurna, kita kembali ke <em>dashboard</em> <a href="http://www.geeknesia.com">Geeknesia</a>. Kita pastikan device kita terhubung dan mengirimkan data, bisa dilihat pada gambar berikut</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/data-device.jpg" title="'data device'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/data-device.jpg" title="'data device'" ></p>
 
 <p>Pengembangan selanjut, kita bisa bikin dashboard yang mendapatkan data dari API <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 ]]></content>
@@ -1940,9 +1940,9 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
   
   <entry>
     <title type="html"><![CDATA[Blinky LED Using Intel Galileo Board]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
     <updated>2015-06-11T23:55:39+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
     <content type="html"><![CDATA[<p>After the <a href="http://www.bigdataindonesia.com/hackathon.php">IoT Hackathon</a> event held at <a href="www.crazyhackerz.com">Crazy Hackerz Makerspace</a> (7-8 March 2015), Intel decided to lend us the Intel Galileo for us to experiment and play around with it. In genereal Intel Galileo is embedded board which is a combination of the Arduino Uno with an Intel X1000 SoC Quark.  In short, Intel Galileo is a mini computer with the concept of DIY (Do it Yourself) which is similar to the Raspberry Pi.</p>
 
 <!-- more -->
@@ -1973,7 +1973,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ arp-a</span></code></pre></td></tr></table></div></figure>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-arp-a.png" title="'intel-galileo arp-a'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-arp-a.png" title="'intel-galileo arp-a'" ></p>
 
 <h2>Find the Intel Galileo IP address</h2>
 
@@ -1983,7 +1983,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ ssh root@[ip_intel_galileo]</span></code></pre></td></tr></table></div></figure>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-ssh.png" title="'intel-galileo ssh'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-ssh.png" title="'intel-galileo ssh'" ></p>
 
 <h2>Create a Folder</h2>
 
@@ -1993,7 +1993,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ mkdir first-iot && cd first-iot</span></code></pre></td></tr></table></div></figure>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-mkdir.png" title="'intel-galileo mkdir'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-mkdir.png" title="'intel-galileo mkdir'" ></p>
 
 <h2>Install the package</h2>
 
@@ -2003,7 +2003,7 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ npm install galileo-io</span></code></pre></td></tr></table></div></figure>
 
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-npm-install.png" title="'intel-galileo npm install'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-npm-install.png" title="'intel-galileo npm install'" ></p>
 
 <h2>Enter the code</h2>
 
@@ -2034,19 +2034,19 @@ Untuk menjalan kode tersebut sebelumnya kita ketik perintah</p>
 
 <p>Write down the code in the file server.js example, to execute the code we use <strong>node server.js</strong> on the terminal. If you do not have the nodejs on the operating system, you can see the tutorial on the following <a href="https://nodejs.org/download">link</a></p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-node-start.png" title="'intel-galileo node start'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-node-start.png" title="'intel-galileo node start'" ></p>
 
 <p>Wooollllaaaaa!!! LED on pin 13 Arduino blinking</p>
 
-<p><img class="center" src="http://www.sofianhw.com/images/intel-galileo-blinky.png" title="'intel-galileo blinky'" ></p>
+<p><img class="center" src="https://sofian.hadiwijaya.co/images/intel-galileo-blinky.png" title="'intel-galileo blinky'" ></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/11/hello-world/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/11/hello-world/"/>
     <updated>2015-06-11T19:15:13+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/11/hello-world</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/11/hello-world</id>
     <content type="html"><![CDATA[<h2>You are reading my blog now!</h2>
 
 <!-- more -->

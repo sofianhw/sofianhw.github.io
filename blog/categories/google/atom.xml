@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Google | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/google/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/google/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Game DevFest 2015 - Virtual Reality]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality/"/>
     <updated>2015-10-20T23:48:10+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/10/20/google-game-devfest-2015-virtual-reality</id>
     <content type="html"><![CDATA[<p>Setelah beberapa kali menjadi peserta dibeberapa acara Google baik di Indonesia dan Singapura. Kali ini saya beruntung karena diundang menjadi salah satu pembicara diacara Google Game DevFest 2015. Saya mendapatkan kesempatan membahas tentang &ldquo;Developing Virtual Reality Content&rdquo;.</p>
 
 <p><img class="center" src="/images/EHmPaN4.jpg" title="&lsquo;Reality is merely an illusion - Virtual Reality&rsquo;" ></p>

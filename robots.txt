@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://www.sofianhw.com/sitemap.xml 
+Sitemap: https://sofian.hadiwijaya.co/sitemap.xml 

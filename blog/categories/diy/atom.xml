@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Diy | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/diy/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/diy/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[DIY - Kerekan Bendera Dikontrol via Twitter]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter/"/>
     <updated>2015-08-20T09:47:39+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/08/20/diy-kerekan-bendera-dikontrol-via-twitter</id>
     <content type="html"><![CDATA[<p>4 Agustus 2015, melalui pembicaraan singkat team <a href="http://code4nation.org">Code4nation</a> pada platform <em>slack</em>, salah satu <em>member</em> dari <a href="http://techinasia.com">Techinasia</a> mengemukakan ide dari CTO mereka tentang <em>campaign</em> acara <a href="http://hackathonmerdeka.id">Hackathon Merdeka</a> yaitu membuat kerekan bendera yang dikontrol via <a href="https://twitter.com">twitter</a>, jadi ketika ada <em>tweet</em> dengan hashtag tertentu maka si bendera akan dengan sendirinya naik perlahan. Hal ini disambut positif oleh mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a> (penggagas <a href="http://kawalpemilu.org">kawalpemilu</a> dan <a href="http://laporpresiden.id">laporpresiden</a>). &ldquo;@sofianhw bisa upayakan IoT (<em>Internet of Things</em>) -nya?&rdquo; ucap mas <a href="https://www.facebook.com/ainunnajib">Ainun Najib</a>. Seketika itu juga saya jawab &ldquo;Bisa!!&rdquo;.</p>
 
 <p><img class="center" src="/images/sofian-hadiwijaya-bendera.JPG" width="640" height="640" title="&lsquo;sofian hadiwijaya bendera&rsquo;" ></p>

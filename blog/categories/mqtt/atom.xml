@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Mqtt | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/mqtt/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/mqtt/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Amazon Meluncurkan AWS IoT (Internet of Things)]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things/"/>
     <updated>2015-10-09T01:25:51+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/10/09/amazon-meluncurkan-aws-iot-internet-of-things</id>
     <content type="html"><![CDATA[<p>Akhirnya Amazon meluncurkan <a href="https://aws.amazon.com/iot/">IoT Platform</a> pada acara re:Invent developer conference di Las Vegas.</p>
 
 <p><img class="center <a" src="href="https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738">https://tctechcrunch2011.files.wordpress.com/2015/10/dsc01840.jpg?w=738</a>"></p>
@@ -73,9 +73,9 @@
   
   <entry>
     <title type="html"><![CDATA[Menghubungkan Intel Edison Ke Geeknesia via MQTT Python-Paho]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho/"/>
     <updated>2015-07-03T16:58:55+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/03/menghubungkan-intel-edison-ke-geeknesia-via-mqtt-python-paho</id>
     <content type="html"><![CDATA[<p>Hello Good People,</p>
 
 <p>Pada postingan sebelumnya kita sudah membahas cara menghubungkan <a href="http://blog.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/">Intel Galileo ke Geeknesia dengan menggunakan nodejs</a>. Kemudian minggu lalu saya juga menulis tentang <a href="http://blog.sofianhw.com/blog/2015/06/29/pengenalan-bahasa-pemrogramman-python/">dasar-dasar Python</a>. Nah gimana menurut kalian bahasa Python sendiri?.</p>
@@ -298,9 +298,9 @@ Semua source saya upload ke Github dengan nama repo <a href="https://github.com/
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
 Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em>Intel Edison</em>. Pada tulisan saat ini saya tidak akan banyak menulis tentang <em>board</em> tersebut, saya akan bercerita pengalaman sayang menggunakan <em>platform IoT</em> asli <em>made in</em> Bandung yaitu <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 

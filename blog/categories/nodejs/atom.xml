@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Nodejs | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/nodejs/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/nodejs/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[IoT Pada Intel Galileo Menggunakan Platform Dari Geeknesia.com]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com/"/>
     <updated>2015-06-13T21:48:40+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/13/iot-pada-intel-galileo-menggunakan-platform-dari-geeknesia-dot-com</id>
     <content type="html"><![CDATA[<p>Hari ini sangat luar biasa, karena saya dapat berbagi ilmu pengetahuan tentang &ldquo;Internet of Things&rdquo; dengan menggunakan <em>board</em> dari <a href="http://www.intel.com">intel</a> berupa <em>Intel Galileo</em> dan <em>Intel Edison</em> pada acara <a href="http://www.meetup.com/Bandung-Internet-of-Things-Meetup/events/223152407">Bandung Internet of Things Meetup yang ke 12</a>
 Persentasi saya dimulai dari menceritakan apa itu <em>Intel Galileo</em> dan <em>Intel Edison</em>. Pada tulisan saat ini saya tidak akan banyak menulis tentang <em>board</em> tersebut, saya akan bercerita pengalaman sayang menggunakan <em>platform IoT</em> asli <em>made in</em> Bandung yaitu <a href="http://www.geeknesia.com">Geeknesia</a>.</p>
 
@@ -116,9 +116,9 @@ untuk melihat apakah kode tersebut berjalan dengan sempurna, kita kembali ke <em
   
   <entry>
     <title type="html"><![CDATA[Blinky LED Using Intel Galileo Board]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board/"/>
     <updated>2015-06-11T23:55:39+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/06/11/blinky-led-using-intel-galileo-board</id>
     <content type="html"><![CDATA[<p>After the <a href="http://www.bigdataindonesia.com/hackathon.php">IoT Hackathon</a> event held at <a href="www.crazyhackerz.com">Crazy Hackerz Makerspace</a> (7-8 March 2015), Intel decided to lend us the Intel Galileo for us to experiment and play around with it. In genereal Intel Galileo is embedded board which is a combination of the Arduino Uno with an Intel X1000 SoC Quark.  In short, Intel Galileo is a mini computer with the concept of DIY (Do it Yourself) which is similar to the Raspberry Pi.</p>
 
 <!-- more -->

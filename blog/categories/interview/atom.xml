@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Interview | Sofian Hadiwijaya]]></title>
-  <link href="http://www.sofianhw.com/blog/categories/interview/atom.xml" rel="self"/>
-  <link href="http://www.sofianhw.com/"/>
+  <link href="https://sofian.hadiwijaya.co/blog/categories/interview/atom.xml" rel="self"/>
+  <link href="https://sofian.hadiwijaya.co/"/>
   <updated>2016-08-16T00:05:32+07:00</updated>
-  <id>http://www.sofianhw.com/</id>
+  <id>https://sofian.hadiwijaya.co/</id>
   <author>
     <name><![CDATA[Sofian Hadiwijaya]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Interview Tentang Internet of Things via Email]]></title>
-    <link href="http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
+    <link href="https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email/"/>
     <updated>2015-07-05T01:48:40+07:00</updated>
-    <id>http://www.sofianhw.com/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
+    <id>https://sofian.hadiwijaya.co/blog/2015/07/05/interview-tentang-internet-of-things-via-email</id>
     <content type="html"><![CDATA[<h2>1. Apa sih yang dimaksud dengan Internet of Things?</h2>
 
 <p>Sebuah konsep dimana benda/objek dengan bantuan perangkat elektronik, perngkat lunak, sensor, dan konektivitas/internet yang membuat benda tersebut dapat bertukaran data / informasi, yang menyebabkan benda tersebut bisa saling berinteraksi dan lebih pintar.</p>
